@@ -1,44 +1,13 @@
 /* eslint-disable no-undef */
 import PropTypes from 'prop-types';
-
-import { useState, useEffect } from 'react';
-import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
-import { drawerWidth } from '../../constants/componentSizesConstants';
 import NavBar from '../navbar/NavBar';
-import useAuth from '../../hooks/useAuth';
-import { AuthStates } from '../../constants/authConstants';
 import Footer from '../footer';
 import { Container } from '@mui/material';
 
-const Main = styled('main', {
-  shouldForwardProp: (prop) => prop !== 'open' && prop !== 'login',
-})(({ theme, open, login }) => ({
-  flexGrow: 1,
-  transition: theme.transitions.create('margin', {
-    easing: theme.transitions.easing.sharp,
-    duration: theme.transitions.duration.leavingScreen,
-  }),
-  ...(login && {
-    marginLeft: `-${drawerWidth}px`,
-  }),
-  ...(open && {
-    transition: theme.transitions.create('margin', {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginLeft: 0,
-  }),
-}));
 
 const BasicLayout = ({ title, children, image }) => {
-  const [login, setLogin] = useState(false);
-  const { authStatus } = useAuth({ forceAuth: false });
-
-  useEffect(() => {
-    setLogin(authStatus === AuthStates.LOGGED_IN);
-  }, [authStatus]);
 
   return (
     <Box sx={{ width: '100%' }}>
@@ -63,11 +32,11 @@ const BasicLayout = ({ title, children, image }) => {
         handleToogleDrawer={()=>{}}
         sx={{mb: 8}}
       />
-      <Main login={login} open={false}>
+      <Box>
         <Container>
           {children}
         </Container>
-      </Main>
+      </Box>
       <Footer/>
     </Box>
   );

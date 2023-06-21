@@ -17,16 +17,16 @@ const Home = () => {
 
   return (
     <BasicLayout title="Home Page" image={`url(${process.env.PUBLIC_URL}/Assents/portada/FloresAmarillas.jpg)`}>
-      <Grid item xs={12} sm={12} md={8} lg={9} sx={{justifyContent: 'center', backgroundColor: 'white', textAlign: 'center'}}>
-        <Typography variant="h1" sx={{fontSize: '2rem', mb: 2}}>
-          Bienvenido a nuestra pagina web
-        </Typography>
-        <Typography variant="p" sx={{fontSize: '1.3rem', mb: 2}}>
-          Si estas aquí, es por que eres muy importante para nosotros y queremos que seas parte de este día tan especial. Hicimos esta página web no solo por que &ldquo;habia&rdquo; que hacerla, 
-          sino por que es una manera de que podamos compartir virtualmente, te invitamos a ingresar con tu usuario y contraseña para poder ver los eventos que se realizan en el día.
-        </Typography>
-      </Grid>
       <Grid container  spacing={2} sx={{mb: 2}} >
+        <Grid item xs={12} sm={12} md={8} lg={9} sx={{justifyContent: 'center', backgroundColor: 'white', textAlign: 'center'}}>
+          <Typography variant="h1" sx={{fontSize: '2rem', mb: 2}}>
+            Bienvenido a nuestra pagina web
+          </Typography>
+          <Typography variant="p" sx={{fontSize: '1.3rem', mb: 2}}>
+            Si estas aquí, es por que eres muy importante para nosotros y queremos que seas parte de este día tan especial. Hicimos esta página web no solo por que &ldquo;habia&rdquo; que hacerla, 
+            sino por que es una manera de que podamos compartir virtualmente, te invitamos a ingresar con tu usuario y contraseña para poder ver los eventos que se realizan en el día.
+          </Typography>
+        </Grid>
         <Grid item xs={12} sm={12} md={4} lg={3} sx={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'stretch', textAlign: 'center'}}>
             <Box sx={{backgroundColor: "#FFE1EF", height: '50px', mb: 2, display: "flex", justifyContent: "center", alignItems: "center" }}>
               La ceremonia empieza en: 
