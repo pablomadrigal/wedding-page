@@ -27,9 +27,7 @@ const NavBar = ({
   const [offset, setOffset] = useState(0);
 
   useEffect(() => {
-    console.log(navBar)
     if (!navBar.current) {
-      console.log("no ref")
       return;
     }
     setOffset(navBar.current.offsetTop);
