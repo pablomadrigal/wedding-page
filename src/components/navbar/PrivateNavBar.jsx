@@ -35,8 +35,6 @@ const menuItems = [
 
 const PrivateNavBar = ({
   title,
-  openDrawer,
-  handleToogleDrawer,
 }) => {
   const navigate = useNavigate();
 
@@ -45,11 +43,9 @@ const PrivateNavBar = ({
       <IconButton
         color="inherit"
         aria-label="open drawer"
-        onClick={handleToogleDrawer}
         edge="start"
         sx={{
           marginRight: '36px',
-          ...(openDrawer && { display: 'none' }),
         }}
       >
         <MenuIcon />
@@ -72,8 +68,6 @@ const PrivateNavBar = ({
 
 PrivateNavBar.propTypes = {
   title: PropTypes.string.isRequired,
-  openDrawer: PropTypes.string.isRequired,
-  handleToogleDrawer: PropTypes.string.isRequired
 };
 
 PrivateNavBar.defaultProps = {

@@ -1,54 +1,57 @@
+import { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Container, styled } from '@mui/material';
 import MuiAppBar from '@mui/material/AppBar';
 import PublicNavBar from './PublicNavBar';
-import PrivateNavBar from './PrivateNavBar';
-import { drawerWidth } from '../../constants/componentSizesConstants';
-import { AuthStates } from '../../constants/authConstants';
-import useAuth from '../../hooks/useAuth';
 
 
-const AppBar = styled(MuiAppBar, {
-  shouldForwardProp: (prop) => prop !== 'open',
-})(({ theme, open }) => ({
+const AppBar = styled(MuiAppBar)(({ theme, sticky }) => ({
   marginTop: '20px',
   zIndex: theme.zIndex.drawer + 1,
-  backgroundColor: "#FFF3F3",
+  backgroundColor: sticky ? "red" : "#FFF3F3",
   transition: theme.transitions.create(['width', 'margin'], {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
-  }),
-  ...(open && {
-    marginLeft: drawerWidth,
-    width: `calc(100% - ${drawerWidth}px)`,
-    transition: theme.transitions.create(['width', 'margin'], {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
   }),
 }));
 
 const NavBar = ({
   title,
-  openDrawer,
-  handleToogleDrawer,
   ...props
 }) => {
-  const { authStatus } = useAuth({ forceAuth: false });
+
+  const navBar = useRef(null)
+
+  const [sticky, setSticky] = useState(false);
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    console.log(navBar)
+    if (!navBar.current) {
+      console.log("no ref")
+      return;
+    }
+    setOffset(navBar.current.offsetTop);
+  }, [navBar, setOffset]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!navBar.current) {
+        return;
+      }
+
+      setSticky(window.scrollY > offset);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [setSticky, navBar, offset]);
+
 
   return (
-    <AppBar position="relative" open={openDrawer} elevation={0} {...props}>
+    <AppBar ref={navBar} position={sticky ? "sticky" : "relative"} elevation={sticky ? 1 : 0} {...props}>
       <Container maxWidth="xl">
-        {authStatus === AuthStates.LOGGED_IN ? (
-          <PrivateNavBar
-            title={title}
-            handleToogleDrawer={handleToogleDrawer}
-            openDrawer={openDrawer}
-          />
-        ) : (
           <PublicNavBar title={title} />
-        )}
       </Container>
     </AppBar>
   );
@@ -56,12 +59,10 @@ const NavBar = ({
 
 NavBar.propTypes = {
   title: PropTypes.string.isRequired,
-  openDrawer: PropTypes.string.isRequired,
-  handleToogleDrawer: PropTypes.string.isRequired
 };
 
 NavBar.defaultProps = {
-  title: ""
+  title: "",
 };
 
 export default NavBar;

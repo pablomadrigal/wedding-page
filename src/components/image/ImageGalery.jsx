@@ -39,7 +39,7 @@ const ImageGalery = ({imageList}) => {
   return (
     <>
         <ImageList
-        sx={{ width: '100%' }}
+        sx={{ width: '100%', backgroundColor: '#FFF3F3' }}
         variant="quilted"
         cols={4}
         rowHeight={121}

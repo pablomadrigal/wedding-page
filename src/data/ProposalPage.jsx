@@ -10,7 +10,7 @@ export const galeryImages = [
       title: 'Burger',
     },
     {
-      img: '/Assents/Pedida/Pedida-2.jpeg',
+      img: '/Assents/Pedida/Pedida-12.jpeg',
       title: 'Camera',
     },
     {
@@ -56,22 +56,6 @@ export const galeryImages = [
       img: '/Assents/Pedida/Pedida-10.jpeg',
       title: 'Sea star',
       cols: 2,
-    },
-    {
-      img: '/Assents/Pedida/Pedida-12.jpeg',
-      title: 'Sea star',
-    },
-    {
-      img: '/Assents/Pedida/Pedida-13.jpeg',
-      title: 'Sea star',
-    },
-    {
-      img: '/Assents/Pedida/Pedida-14.jpeg',
-      title: 'Sea star',
-    },
-    {
-      img: '/Assents/Pedida/Pedida-15.jpeg',
-      title: 'Sea star',
     },
   ];
   

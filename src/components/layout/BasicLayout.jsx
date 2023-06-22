@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -27,9 +26,7 @@ const BasicLayout = ({ title, children, image }) => {
         }}
       />
       <NavBar
-        openDrawer={false}
         title={title}
-        handleToogleDrawer={()=>{}}
         sx={{mb: 8}}
       />
       <Box>
@@ -50,7 +47,7 @@ BasicLayout.propTypes = {
 
 BasicLayout.defaultProps = {
   title: "",
-  image: `url(${process.env.PUBLIC_URL}/Assents/Pedida2.jpeg)`
+  image: `url(/Assents/Pedida2.jpeg)`
 };
 
 export default BasicLayout;
