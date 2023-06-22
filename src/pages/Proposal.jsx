@@ -6,6 +6,7 @@ import ImageGalery from '../components/image/ImageGalery';
 
 import { galeryImages } from '../data/ProposalPage'
 import ReactPlayer from 'react-player/lazy';
+import FlowerDivider from '../components/image/FlowerDivider';
 
 const Proposal = () => {
   return (
@@ -18,6 +19,7 @@ const Proposal = () => {
             <ReactPlayer width="100%" url={'https://youtu.be/ZSEAgmlwFio'}/>
         </Grid>
       </Grid>
+      <FlowerDivider onlyMobile />
       <Typography>Las Fotos</Typography>
       <ImageGalery imageList={galeryImages} />
     </BasicLayout>

@@ -8,6 +8,7 @@ import ImageGalery from '../components/image/ImageGalery';
 import ChangeImage from '../components/image/ChangeImage';
 
 import {coupleImages, galeryImages} from '../data/HomePage'
+import FlowerDivider from '../components/image/FlowerDivider';
 
 const Home = () => {
 
@@ -50,6 +51,7 @@ const Home = () => {
             </Box>
         </Grid>
       </Grid>
+      <FlowerDivider onlyMobile />
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12} md={6} lg={6} sx={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
           <ChangeImage {...coupleImages[0]} style={{maxWidth: '400px'}}/>
@@ -66,6 +68,7 @@ const Home = () => {
           </p>
         </Grid>
       </Grid>
+      <FlowerDivider onlyMobile />
       <ImageGalery imageList={galeryImages} />
     </BasicLayout>
   );
