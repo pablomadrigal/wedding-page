@@ -59,16 +59,3 @@ export const galeryImages = [
     },
   ];
   
-
-export const coupleImages = [
-    {
-        altText: 'Pablo Madrigal',
-        imgURL1: 'https://medlineplus.gov/images/Volcanoes_share.jpg',
-        imgURL2: 'https://media.istockphoto.com/photos/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal-picture-id1341288649?b=1&k=20&m=1341288649&s=170667a&w=0&h=tGS0ne3HTBPt-6CltooB9ChBtNHHvfFEbby-OP--MeY=',
-    },
-    {
-        altText: 'Paloma Ruiz',
-        imgURL1: 'https://medlineplus.gov/images/Volcanoes_share.jpg',
-        imgURL2: 'https://media.istockphoto.com/photos/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal-picture-id1341288649?b=1&k=20&m=1341288649&s=170667a&w=0&h=tGS0ne3HTBPt-6CltooB9ChBtNHHvfFEbby-OP--MeY=',
-    }
-];

@@ -17,7 +17,7 @@ function Footer() {
             flexGrow: 1,
             justifyContent: "center",
             display: "flex",
-            mb: 2
+            pb: 2
           }}
         >
           <Typography variant="caption" color="initial">
