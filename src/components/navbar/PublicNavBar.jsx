@@ -5,17 +5,22 @@ import { Link } from 'react-router-dom';
 
 import {ReactComponent as ReactLogo} from '../../images/logoBoda.svg';
 
-const publicNavLinks = [
+const firstLinks = [
   {id: 'couple', label: 'Inicio', url: '/'},
-  {id: 'proposal', label: 'La propuesta', url: 'proposal'}
+  {id: 'proposal', label: 'La propuesta', url: '/proposal'}
+]
+
+
+const secondLinks = [
+  {id: 'timeline', label: 'Nuestra historia', url: '/timeline'}
 ]
 
 const PublicNavBar = () => {
   return (
     <Toolbar disableGutters sx={{ justifyContent: 'center' }}>
-      {publicNavLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
+      {firstLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
       <ReactLogo />
-      {publicNavLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
+      {secondLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
     </Toolbar>
   );
 };
