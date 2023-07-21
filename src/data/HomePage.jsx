@@ -4,65 +4,94 @@ import pablo1 from '../images/nosotros/Nosotros3.jpg'
 import pablo2 from '../images/nosotros/Nosotros4.jpg'
 import backgroundPaloma from '../images/backgrounds/FondoAzul1.jpg'
 import backgroundPablo from '../images/backgrounds/FondoAzul1Rev.jpg'
+import pedidaMin1 from '../images/Pedida/Pedida1-min.jpg'
+import pedida1 from '../images/Pedida/Pedida1.jpg'
+import pedidaMin2 from '../images/Pedida/Pedida2-min.jpg'
+import pedida2 from '../images/Pedida/Pedida2.jpg'
+import pedidaMin3 from '../images/Pedida/Pedida3-min.jpg'
+import pedida3 from '../images/Pedida/Pedida3.jpg'
+import pedidaMin4 from '../images/Pedida/Pedida4-min.jpg'
+import pedida4 from '../images/Pedida/Pedida4.jpg'
+import pedidaMin5 from '../images/Pedida/Pedida5-min.jpg'
+import pedida5 from '../images/Pedida/Pedida5.jpg'
+import pedidaMin6 from '../images/Pedida/Pedida6-min.jpg'
+import pedida6 from '../images/Pedida/Pedida6.jpg'
+import pedidaMin7 from '../images/Pedida/Pedida7-min.jpg'
+import pedida7 from '../images/Pedida/Pedida7.jpg'
+import pedidaMin8 from '../images/Pedida/Pedida8-min.jpg'
+import pedida8 from '../images/Pedida/Pedida8.jpg'
+import pedidaMin10 from '../images/Pedida/Pedida10-min.jpg'
+import pedida10 from '../images/Pedida/Pedida10.jpg'
+import pedidaMin11 from '../images/Pedida/Pedida11-min.jpg'
+import pedida11 from '../images/Pedida/Pedida11.jpg'
+import pedidaMin12 from '../images/Pedida/Pedida12-min.jpg'
+import pedida12 from '../images/Pedida/Pedida12.jpg'
+
+                   
+
 
 export const galeryImages = [
     {
-      img: '/Assents/Pedida/Pedida-1.jpeg',
+      img: pedida1,
+      imgMin: pedidaMin1,
       title: 'Pedida de matrimonio',
       rows: 2,
       cols: 2,
     },
     {
-      img: '/Assents/Pedida/Pedida-2.jpeg',
-      title: 'Burger',
+      img: pedida2,
+      imgMin: pedidaMin2,
+      title: 'De rodillas',
     },
     {
-      img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-      title: 'Camera',
+      img: pedida8,
+      imgMin: pedidaMin8,
+      title: 'Beso en la mano',
+      rows: 2,
     },
     {
-      img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-      title: 'Coffee',
-      cols: 2,
+      img: pedida3,
+      imgMin: pedidaMin3,
+      title: 'Abrazo',
     },
     {
-      img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-      title: 'Hats',
-      cols: 2,
+      img: pedida11,
+      imgMin: pedidaMin11,
+      title: 'Amor en el aire',
+      rows: 2,
     },
     {
-      img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-      title: 'Honey',
-      author: '@arwinneil',
+      img: pedida4,
+      imgMin: pedidaMin4,
+      title: 'Beso',
+    },
+    {
+      img: pedida5,
+      imgMin: pedidaMin5,
+      title: 'Paloma',
+    },
+    {
+      img: pedida7,
+      imgMin: pedidaMin7,
+      title: 'Anillo',
+    },
+    {
+      img: pedida10,
+      imgMin: pedidaMin10,
+      title: 'Enseñando el anillo',
       rows: 2,
       cols: 2,
     },
     {
-      img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-      title: 'Basketball',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-      title: 'Fern',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-      title: 'Mushrooms',
+      img: pedida12,
+      imgMin: pedidaMin12,
+      title: 'Amor en el aire',
       rows: 2,
-      cols: 2,
     },
     {
-      img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-      title: 'Tomato basil',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-      title: 'Sea star',
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-      title: 'Bike',
-      cols: 2,
+      img: pedida6,
+      imgMin: pedidaMin6,
+      title: 'De espaldas',
     },
   ];
 

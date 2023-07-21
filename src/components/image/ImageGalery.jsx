@@ -47,7 +47,7 @@ const ImageGalery = ({imageList}) => {
         {imageList.map((item, idx) => (
             <StyledImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
                 <img
-                    {...srcset(item.img, 121, item.rows, item.cols)}
+                    {...srcset(item.imgMin, 121, item.rows, item.cols)}
                     className='fotoInterna'
                     alt={item.title}
                     loading="lazy"
