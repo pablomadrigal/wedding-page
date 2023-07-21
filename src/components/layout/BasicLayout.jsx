@@ -6,7 +6,7 @@ import Footer from '../footer';
 import { Container } from '@mui/material';
 
 
-const BasicLayout = ({ title, children, image }) => {
+const BasicLayout = ({ title, children, image, fullWidth }) => {
 
   return (
     <Box sx={{ width: '100%' }}>
@@ -30,7 +30,7 @@ const BasicLayout = ({ title, children, image }) => {
         sx={{mb: 8}}
       />
       <Box>
-        <Container>
+        <Container maxWidth={fullWidth ? false : 'xl'}>
           {children}
         </Container>
       </Box>
@@ -43,11 +43,13 @@ BasicLayout.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node.isRequired,
   image: PropTypes.string,
+  fullWidth: PropTypes.bool
 };
 
 BasicLayout.defaultProps = {
   title: "",
-  image: `url(/Assents/Pedida2.jpeg)`
+  image: `url(/Assents/Pedida2.jpeg)`,
+  fullWidth: false
 };
 
 export default BasicLayout;

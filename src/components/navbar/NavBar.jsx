@@ -6,10 +6,10 @@ import MuiAppBar from '@mui/material/AppBar';
 import PublicNavBar from './PublicNavBar';
 
 
-const AppBar = styled(MuiAppBar)(({ theme, sticky }) => ({
-  marginTop: '20px',
+const AppBar = styled(MuiAppBar)(({ theme }) => ({
+  paddingTop: '15px',
   zIndex: theme.zIndex.drawer + 1,
-  backgroundColor: sticky ? "red" : "#FFF3F3",
+  backgroundColor: "#D0E2F1",
   transition: theme.transitions.create(['width', 'margin'], {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,

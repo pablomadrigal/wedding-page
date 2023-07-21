@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Toolbar } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import {ReactComponent as ReactLogo} from '../../images/logoBoda.svg';
+import {ReactComponent as ReactLogo} from '../../images/LogoBoda.svg';
 
 const firstLinks = [
   {id: 'couple', label: 'Inicio', url: '/'},
@@ -15,12 +15,14 @@ const secondLinks = [
   {id: 'timeline', label: 'Nuestra historia', url: '/timeline'}
 ]
 
+const linkStyles = {marginLeft: '20px', marginRight: '20px', fontFamily: 'Cardo', color: 'white', fontSize: '1.5rem', textDecoration: 'none'}
+
 const PublicNavBar = () => {
   return (
     <Toolbar disableGutters sx={{ justifyContent: 'center' }}>
-      {firstLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
+      {firstLinks.map( (item) => <Link key={item.id} to={item.url} style={linkStyles}>{item.label}</Link>)}
       <ReactLogo />
-      {secondLinks.map( (item) => <Link key={item.id} to={item.url} style={{marginLeft: '20px', marginRight: '20px'}}>{item.label}</Link>)}
+      {secondLinks.map( (item) => <Link key={item.id} to={item.url} style={linkStyles}>{item.label}</Link>)}
     </Toolbar>
   );
 };
