@@ -1,7 +1,7 @@
 {
   "name": "material-cra",
   "version": "5.0.0",
-  "homepage": "https://pablomadrigal.github.io/wedding-page",
+  "homepage": "https://pablomadrigal.github.io/wedding-page/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
