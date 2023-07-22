@@ -7,7 +7,7 @@ import ImageGalery from '../components/image/ImageGalery'
 import { coupleImages, galeryImages } from '../data/HomePage'
 import FlowerDivider from '../components/image/FlowerDivider'
 import CountDown from '../components/countDown/CountDown'
-import CoupleCard from '../components/cards/CoupleCard'
+import GeneralCard from '../components/cards/GeneralCard'
 
 const Home = () => {
   return (
@@ -34,25 +34,25 @@ const Home = () => {
       <Container>
         <Grid container spacing={2} sx={{ mt: 2 }}>
           <Grid item xs={12} sm={12} md={12} lg={6}>
-            <CoupleCard
+            <GeneralCard
               imgURL1={coupleImages[0].imgURL1}
               imgURL2={coupleImages[0].imgURL2}
               backgroundImg={coupleImages[0].backgroundImg}
-              name={coupleImages[0].name}
+              title={coupleImages[0].name}
               description={coupleImages[0].description}
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={6}>
-            <CoupleCard
+            <GeneralCard
               imgURL1={coupleImages[1].imgURL1}
               imgURL2={coupleImages[1].imgURL2}
               backgroundImg={coupleImages[1].backgroundImg}
-              name={coupleImages[1].name}
+              title={coupleImages[1].name}
               description={coupleImages[1].description}
             />
           </Grid>
         </Grid>
-        <FlowerDivider position={'up'}/>
+        <FlowerDivider position={'up'} />
         <ImageGalery imageList={galeryImages} />
       </Container>
     </BasicLayout>

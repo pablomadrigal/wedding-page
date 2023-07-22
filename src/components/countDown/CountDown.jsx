@@ -6,6 +6,7 @@ const StyledParagraph = styled('p')({
   margin: 0,
   fontSize: '4rem',
   fontWeight: 'bold',
+  marginBottom: '-25px',
 })
 
 const CountDown = () => {
@@ -14,7 +15,8 @@ const CountDown = () => {
   )
 
   return (
-    <Grid container
+    <Grid
+      container
       sx={{
         display: 'flex',
         justifyContent: 'center',
@@ -26,10 +28,11 @@ const CountDown = () => {
         left: 0,
         color: 'white',
         marginLeft: '-24px',
-        my: 5
+        my: 5,
       }}
     >
-      <Grid item 
+      <Grid
+        item
         xs={12}
         sm={12}
         md={12}
@@ -44,7 +47,8 @@ const CountDown = () => {
       >
         La ceremonia empieza en:
       </Grid>
-      <Grid item
+      <Grid
+        item
         xs={12}
         sm={12}
         md={12}
@@ -55,10 +59,10 @@ const CountDown = () => {
           height: '100px',
           mb: 2,
           display: 'flex',
-          justifyContent: 'space-around',
+          justifyContent: 'space-evenly',
           alignItems: 'center',
           fontSize: '1.8rem',
-          color: 'white'
+          color: 'white',
         }}
       >
         <div style={{ fontSize: '1rem', marginRight: '20px' }}>
