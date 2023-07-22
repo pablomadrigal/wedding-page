@@ -1,25 +1,51 @@
-import PropTypes from 'prop-types';
-import useDetectMobile from '../../hooks/useDetectMobile';
+import PropTypes from 'prop-types'
+import useDetectMobile from '../../hooks/useDetectMobile'
 
-function FlowerDivider({ onlyMobile }) {
-  const { isMobile } = useDetectMobile();
+import Arriba from '../../images/backgrounds/Arriba.png'
+import Intermedio from '../../images/backgrounds/Intermedio.png'
+import Abajo from '../../images/backgrounds/Abajo.png'
 
+const filteredItems = (filter) => {
+  return {
+    up: Arriba,
+    center: Intermedio,
+    down: Abajo,
+  }[filter]
+}
 
-  if (onlyMobile && !isMobile){ return null }
-  else
+function FlowerDivider({ onlyMobile, position }) {
+  const { isMobile } = useDetectMobile()
+
+  if (onlyMobile && !isMobile) {
+    return null
+  } else
     return (
-      <div style={{height: 'auto', width: "100%", marginTop: "15px", marginBottom: "15px" }}>
-          <img src={`/Assents/Intermedio.png`} style={{width: "100%", height: "auto"}}  />
-        </div>
-    );
+      <div
+        style={{
+          height: 'auto',
+          width: '100%',
+          marginTop: position === 'up' ? 'none' : '15px',
+          marginBottom: position === 'down' ? 'none' : '15px',
+          display: 'flex',
+          justifyContent: 'center',
+        }}
+      >
+        <img
+          src={filteredItems(position)}
+          style={{ width: '100%', height: 'auto', maxWidth: '700px' }}
+        />
+      </div>
+    )
 }
 
 FlowerDivider.propTypes = {
-  onlyMobile: PropTypes.bool
-};
+  onlyMobile: PropTypes.bool,
+  position: PropTypes.oneOf(['up', 'down', 'center']),
+}
 
 FlowerDivider.defaultProps = {
   onlyMobile: false,
-};
+  position: 'center',
+}
 
-export default FlowerDivider;
+export default FlowerDivider

@@ -52,7 +52,7 @@ const Home = () => {
             />
           </Grid>
         </Grid>
-        <FlowerDivider onlyMobile />
+        <FlowerDivider position={'up'}/>
         <ImageGalery imageList={galeryImages} />
       </Container>
     </BasicLayout>

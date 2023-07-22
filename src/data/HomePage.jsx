@@ -20,15 +20,14 @@ import pedidaMin7 from '../images/Pedida/Pedida7-min.jpg'
 import pedida7 from '../images/Pedida/Pedida7.jpg'
 import pedidaMin8 from '../images/Pedida/Pedida8-min.jpg'
 import pedida8 from '../images/Pedida/Pedida8.jpg'
+import pedidaMin9 from '../images/Pedida/Pedida9-min.jpg'
+import pedida9 from '../images/Pedida/Pedida9.jpg'
 import pedidaMin10 from '../images/Pedida/Pedida10-min.jpg'
 import pedida10 from '../images/Pedida/Pedida10.jpg'
 import pedidaMin11 from '../images/Pedida/Pedida11-min.jpg'
 import pedida11 from '../images/Pedida/Pedida11.jpg'
 import pedidaMin12 from '../images/Pedida/Pedida12-min.jpg'
 import pedida12 from '../images/Pedida/Pedida12.jpg'
-
-                   
-
 
 export const galeryImages = [
     {
@@ -92,6 +91,11 @@ export const galeryImages = [
       img: pedida6,
       imgMin: pedidaMin6,
       title: 'De espaldas',
+    },
+    {
+      img: pedida9,
+      imgMin: pedidaMin9,
+      title: 'Besito',
     },
   ];
 

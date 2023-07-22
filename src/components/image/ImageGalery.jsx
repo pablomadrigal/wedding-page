@@ -1,44 +1,96 @@
 import PropTypes from 'prop-types';
+import 'photoswipe/dist/photoswipe.css'
+import './ImageGalery.css'
 
-import { useState } from 'react';
-import { Dialog, DialogTitle, ImageList, ImageListItem, styled } from '@mui/material';
+import { Gallery, Item } from 'react-photoswipe-gallery'
+import { useState, useEffect } from 'react';
 
-function srcset(image, size, rows = 1, cols = 1) {
-  return {
-    src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
+const loadImage = (setWidth, setHeight, imageUrl) => {
+  const img = new Image();
+  img.src = imageUrl;
+
+  img.onload = () => {
+    setWidth(img.naturalWidth);
+    setHeight(img.naturalHeight);
   };
+  img.onerror = (err) => {
+    console.log("img error");
+    console.error(err);
+  };
+};
+
+const ImageItem = ({image}) => {
+
+  const [width, setWidth] = useState(0);
+  const [height, setHeight] = useState(0);
+
+  useEffect(() => {
+    loadImage(setWidth, setHeight, image.img);
+  }, []);
+
+  useEffect(() => {
+    console.log(`id: ${image.img} - width: ${width} - height: ${height}`)
+  }, [width, height])
+  
+
+  const smallItemStyles = {
+    cursor: 'pointer',
+    width: '100%',
+    height: '240px',
+    objectPosition: 'center',
+    objectFit: 'none',
+  }
+  
+  return (<Item
+    original={image.img}
+    thumbnail={image.imgMin}
+    width={width}
+    height={height}
+    alt={image.title}
+    key={image.img}
+    cropped={true}
+  >
+    {({ ref, open }) => (
+      <img
+        style={smallItemStyles}
+        src={image.imgMin}
+        ref={ref }
+        onClick={open}
+      />
+    )}
+  </Item>)
 }
 
-const StyledImageListItem = styled(ImageListItem)({
-	overflow: 'hidden',
-    '.fotoInterna': {
-        opacity:0.7,
-        transition: '1s ease',
-    },
-    '&:hover .fotoInterna': {
-        opacity:1,
-        transform: 'scale(1.3, 1.3)',
-        transition: '1s ease',
-        zIndex: 2,
-        cursor: 'pointer'
-    },
-});
+ImageItem.propTypes = {
+  image: PropTypes.object.isRequired,
+};
+
 
 const ImageGalery = ({imageList}) => {
-    const [activeIndex, setActiveIndex] = useState(0);
-    const [open, setOpen] = useState(false)
-
-    const handleSelectImage = (index) => {
-        setActiveIndex(index)
-        setOpen(true)
-    }
 
   return (
-    <>
-        <ImageList
+    <Gallery>
+      <div className='gallery' >
+        {imageList.map((image) => {
+        return <ImageItem key={image.img} image={image} />
+
+        })}
+      </div>
+    </Gallery>
+  );
+}
+
+ImageGalery.propTypes = {
+  imageList: PropTypes.array.isRequired,
+};
+
+ImageGalery.defaultProps = {
+};
+
+export default ImageGalery;
+
+  /*
+ <ImageList
         sx={{ width: '100%', backgroundColor: '#FFF3F3' }}
         variant="quilted"
         cols={4}
@@ -64,15 +116,4 @@ const ImageGalery = ({imageList}) => {
                 alt={imageList[activeIndex].title}
             />
         </Dialog>
-    </>
-  );
-}
-
-ImageGalery.propTypes = {
-    imageList: PropTypes.array.isRequired,
-  };
-  
-  ImageGalery.defaultProps = {
-  };
-
-  export default ImageGalery;
+  */
