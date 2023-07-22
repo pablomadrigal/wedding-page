@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-page/static/css/main.3c211861.css",
-    "main.js": "/wedding-page/static/js/main.7e171d0e.js",
+    "main.js": "/wedding-page/static/js/main.866a1c72.js",
     "reactPlayerYouTube.js": "/wedding-page/static/js/reactPlayerYouTube.7c77f277.chunk.js",
     "reactPlayerSoundCloud.js": "/wedding-page/static/js/reactPlayerSoundCloud.e40ec9ee.chunk.js",
     "reactPlayerVimeo.js": "/wedding-page/static/js/reactPlayerVimeo.74c2c1b2.chunk.js",
@@ -51,7 +51,7 @@
     "static/media/Abajo.png": "/wedding-page/static/media/Abajo.3f75232048e5e53a6dea.png",
     "index.html": "/wedding-page/index.html",
     "main.3c211861.css.map": "/wedding-page/static/css/main.3c211861.css.map",
-    "main.7e171d0e.js.map": "/wedding-page/static/js/main.7e171d0e.js.map",
+    "main.866a1c72.js.map": "/wedding-page/static/js/main.866a1c72.js.map",
     "reactPlayerYouTube.7c77f277.chunk.js.map": "/wedding-page/static/js/reactPlayerYouTube.7c77f277.chunk.js.map",
     "reactPlayerSoundCloud.e40ec9ee.chunk.js.map": "/wedding-page/static/js/reactPlayerSoundCloud.e40ec9ee.chunk.js.map",
     "reactPlayerVimeo.74c2c1b2.chunk.js.map": "/wedding-page/static/js/reactPlayerVimeo.74c2c1b2.chunk.js.map",
@@ -68,6 +68,6 @@
   },
   "entrypoints": [
     "static/css/main.3c211861.css",
-    "static/js/main.7e171d0e.js"
+    "static/js/main.866a1c72.js"
   ]
 }
