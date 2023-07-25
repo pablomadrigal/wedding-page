@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
 import { Box, Typography } from '@mui/material'
+import { useTheme } from '@mui/material/styles'
+import useMediaQuery from '@mui/material/useMediaQuery'
 import ChangeImage from '../image/ChangeImage'
 
 const GeneralCard = ({
@@ -9,6 +11,8 @@ const GeneralCard = ({
   title,
   description,
 }) => {
+  const theme = useTheme()
+  const cellphone = useMediaQuery(theme.breakpoints.down('sm'))
   return (
     <Box
       sx={{
@@ -28,7 +32,7 @@ const GeneralCard = ({
           imgURL1={imgURL1}
           imgURL2={imgURL2}
           altText={title}
-          style={{ maxWidth: '500px' }}
+          style={{ maxWidth: cellphone ? '250px' : '500px' }}
         />
       )}
       <Typography
