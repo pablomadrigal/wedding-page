@@ -4,98 +4,134 @@ import pablo1 from '../images/nosotros/Nosotros3.webp'
 import pablo2 from '../images/nosotros/Nosotros4.webp'
 import backgroundPaloma from '../images/backgrounds/FondoAzul1.jpg'
 import backgroundPablo from '../images/backgrounds/FondoAzul1Rev.jpg'
-import pedidaMin1 from '../images/Pedida/Pedida1-min.jpg'
-import pedida1 from '../images/Pedida/Pedida1.jpg'
-import pedidaMin2 from '../images/Pedida/Pedida2-min.jpg'
-import pedida2 from '../images/Pedida/Pedida2.jpg'
-import pedidaMin3 from '../images/Pedida/Pedida3-min.jpg'
-import pedida3 from '../images/Pedida/Pedida3.jpg'
-import pedidaMin4 from '../images/Pedida/Pedida4-min.jpg'
-import pedida4 from '../images/Pedida/Pedida4.jpg'
-import pedidaMin5 from '../images/Pedida/Pedida5-min.jpg'
-import pedida5 from '../images/Pedida/Pedida5.jpg'
-import pedidaMin6 from '../images/Pedida/Pedida6-min.jpg'
-import pedida6 from '../images/Pedida/Pedida6.jpg'
-import pedidaMin7 from '../images/Pedida/Pedida7-min.jpg'
-import pedida7 from '../images/Pedida/Pedida7.jpg'
-import pedidaMin8 from '../images/Pedida/Pedida8-min.jpg'
-import pedida8 from '../images/Pedida/Pedida8.jpg'
-import pedidaMin9 from '../images/Pedida/Pedida9-min.jpg'
-import pedida9 from '../images/Pedida/Pedida9.jpg'
-import pedidaMin10 from '../images/Pedida/Pedida10-min.jpg'
-import pedida10 from '../images/Pedida/Pedida10.jpg'
-import pedidaMin11 from '../images/Pedida/Pedida11-min.jpg'
-import pedida11 from '../images/Pedida/Pedida11.jpg'
-import pedidaMin12 from '../images/Pedida/Pedida12-min.jpg'
-import pedida12 from '../images/Pedida/Pedida12.jpg'
+
+import general1 from '../images/general/general1.jpg'
+import general1Min from '../images/general/general1.webp'
+import general2 from '../images/general/general2.jpg'
+import general2Min from '../images/general/general2.webp'
+import general3 from '../images/general/general3.jpg'
+import general3Min from '../images/general/general3.webp'
+import general4 from '../images/general/general4.jpg'
+import general4Min from '../images/general/general4.webp'
+import general5 from '../images/general/general5.jpg'
+import general5Min from '../images/general/general5.webp'
+import general6 from '../images/general/general6.jpg'
+import general6Min from '../images/general/general6.webp'
+import general7 from '../images/general/general7.jpg'
+import general7Min from '../images/general/general7.webp'
+import general8 from '../images/general/general8.jpg'
+import general8Min from '../images/general/general8.webp'
+import general9 from '../images/general/general9.jpg'
+import general9Min from '../images/general/general9.webp'
+import general10 from '../images/general/general10.jpg'
+import general10Min from '../images/general/general10.webp'
+import general11 from '../images/general/general11.jpg'
+import general11Min from '../images/general/general11.webp'
+import general12 from '../images/general/general12.jpg'
+import general12Min from '../images/general/general12.webp'
+import general13 from '../images/general/general13.jpg'
+import general13Min from '../images/general/general13.webp'
+import general14 from '../images/general/general14.jpg'
+import general14Min from '../images/general/general14.webp'
+import general15 from '../images/general/general15.jpg'
+import general15Min from '../images/general/general15.webp'
+import general16 from '../images/general/general16.jpg'
+import general16Min from '../images/general/general16.webp'
+import general17 from '../images/general/general17.jpg'
+import general17Min from '../images/general/general17.webp'
+import general18 from '../images/general/general18.jpg'
+import general18Min from '../images/general/general18.webp'
 
 export const galeryImages = [
   {
-    img: pedida1,
-    imgMin: pedidaMin1,
+    img: general1,
+    imgMin: general1Min,
     title: 'Pedida de matrimonio',
-    rows: 2,
-    cols: 2,
   },
   {
-    img: pedida2,
-    imgMin: pedidaMin2,
-    title: 'De rodillas',
+    img: general2,
+    imgMin: general2Min,
+    title: 'Pedida de matrimonio 2',
   },
   {
-    img: pedida8,
-    imgMin: pedidaMin8,
-    title: 'Beso en la mano',
-    rows: 2,
+    img: general3,
+    imgMin: general3Min,
+    title: 'Pedida de matrimonio 3',
   },
   {
-    img: pedida3,
-    imgMin: pedidaMin3,
-    title: 'Abrazo',
+    img: general4,
+    imgMin: general4Min,
+    title: 'Pedida de matrimonio 4',
   },
   {
-    img: pedida11,
-    imgMin: pedidaMin11,
-    title: 'Amor en el aire',
-    rows: 2,
+    img: general5,
+    imgMin: general5Min,
+    title: 'Pedida de matrimonio 5',
   },
   {
-    img: pedida4,
-    imgMin: pedidaMin4,
-    title: 'Beso',
+    img: general6,
+    imgMin: general6Min,
+    title: 'Pedida de matrimonio 6',
   },
   {
-    img: pedida5,
-    imgMin: pedidaMin5,
-    title: 'Paloma',
+    img: general7,
+    imgMin: general7Min,
+    title: 'Pedida de matrimonio 7',
   },
   {
-    img: pedida7,
-    imgMin: pedidaMin7,
-    title: 'Anillo',
+    img: general8,
+    imgMin: general8Min,
+    title: 'Pedida de matrimonio 8',
   },
   {
-    img: pedida10,
-    imgMin: pedidaMin10,
-    title: 'Enseñando el anillo',
-    rows: 2,
-    cols: 2,
+    img: general9,
+    imgMin: general9Min,
+    title: 'Pedida de matrimonio 9',
   },
   {
-    img: pedida12,
-    imgMin: pedidaMin12,
-    title: 'Amor en el aire',
-    rows: 2,
+    img: general10,
+    imgMin: general10Min,
+    title: 'Pedida de matrimonio 10',
   },
   {
-    img: pedida6,
-    imgMin: pedidaMin6,
-    title: 'De espaldas',
+    img: general11,
+    imgMin: general11Min,
+    title: 'Pedida de matrimonio 11',
   },
   {
-    img: pedida9,
-    imgMin: pedidaMin9,
-    title: 'Besito',
+    img: general12,
+    imgMin: general12Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general13,
+    imgMin: general13Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general14,
+    imgMin: general14Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general15,
+    imgMin: general15Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general16,
+    imgMin: general16Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general17,
+    imgMin: general17Min,
+    title: 'Pedida de matrimonio 11',
+  },
+  {
+    img: general18,
+    imgMin: general18Min,
+    title: 'Pedida de matrimonio 11',
   },
 ]
 

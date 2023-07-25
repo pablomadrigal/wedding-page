@@ -43,6 +43,7 @@ const Home = () => {
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={6}>
+            <FlowerDivider onlyMobile position={'down'} />
             <GeneralCard
               imgURL1={coupleImages[1].imgURL1}
               imgURL2={coupleImages[1].imgURL2}

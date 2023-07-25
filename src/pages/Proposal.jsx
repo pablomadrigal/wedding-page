@@ -52,7 +52,7 @@ const Proposal = () => {
           <ReactPlayer width="100%" url={'https://youtu.be/ZSEAgmlwFio'} />
         </Grid>
       </Grid>
-      <FlowerDivider onlyMobile />
+      <FlowerDivider onlyMobile position="up" />
       <ImageGalery imageList={galeryImages} />
     </BasicLayout>
   )
