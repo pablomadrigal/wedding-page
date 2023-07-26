@@ -11,10 +11,11 @@ import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import BasicLayout from '../components/layout/BasicLayout'
 import { timelineEvents } from '../data/TimelinePage'
+import Portada from '../images/portadas/FloresAmarillas-min.jpg'
 
 const TimelineItemCard = ({ imageURL, title, description, reverse }) => {
   return (
-    <Grid container spacing={2} direction={reverse ? "row-reverse" :  "row"}>
+    <Grid container spacing={2} direction={reverse ? 'row-reverse' : 'row'}>
       {imageURL && (
         <Grid md={6} item>
           <img
@@ -49,7 +50,7 @@ TimelineItemCard.defaultProps = {
 
 const TimelinePage = () => {
   return (
-    <BasicLayout title="Timeline">
+    <BasicLayout title="Timeline" image={Portada}>
       <Timeline position="alternate" sx={{ backgroundColor: '#FFF3F3' }}>
         {timelineEvents.map((event, idx) => {
           return (
@@ -74,7 +75,7 @@ const TimelinePage = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-              <TimelineItemCard {...event} reverse={idx % 2}/>
+                <TimelineItemCard {...event} reverse={idx % 2} />
               </TimelineContent>
             </TimelineItem>
           )

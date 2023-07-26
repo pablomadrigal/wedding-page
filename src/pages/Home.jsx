@@ -8,14 +8,11 @@ import { coupleImages, galeryImages } from '../data/HomePage'
 import FlowerDivider from '../components/image/FlowerDivider'
 import CountDown from '../components/countDown/CountDown'
 import GeneralCard from '../components/cards/GeneralCard'
+import Portada from '../images/portadas/FloresAmarillas-min.jpg'
 
 const Home = () => {
   return (
-    <BasicLayout
-      title="Home Page"
-      image={`url(${process.env.PUBLIC_URL}/Assents/portada/FloresAmarillas.jpg)`}
-      fullWidth
-    >
+    <BasicLayout title="Home Page" image={Portada} fullWidth>
       <Container sx={{ textAlign: 'center' }}>
         <Typography variant="h1" sx={{ fontSize: '2rem', mb: 2 }}>
           Bienvenido a nuestra pagina web

@@ -1,20 +1,18 @@
-import PropTypes from 'prop-types';
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
-import NavBar from '../navbar/NavBar';
-import Footer from '../footer';
-import { Container } from '@mui/material';
-
+import PropTypes from 'prop-types'
+import Box from '@mui/material/Box'
+import CssBaseline from '@mui/material/CssBaseline'
+import NavBar from '../navbar/NavBar'
+import Footer from '../footer'
+import { Container } from '@mui/material'
 
 const BasicLayout = ({ title, children, image, fullWidth }) => {
-
   return (
     <Box sx={{ width: '100%' }}>
       <CssBaseline />
-      <div 
+      <div
         style={{
-          justifyContent: 'center', 
-          backgroundImage: image,
+          justifyContent: 'center',
+          backgroundImage: `url(${image})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           aspectRatio: '16 / 8',
@@ -25,31 +23,26 @@ const BasicLayout = ({ title, children, image, fullWidth }) => {
           fontSize: '4vw',
         }}
       />
-      <NavBar
-        title={title}
-        sx={{mb: 8}}
-      />
+      <NavBar title={title} sx={{ mb: 8 }} />
       <Box>
-        <Container maxWidth={fullWidth ? false : 'xl'}>
-          {children}
-        </Container>
+        <Container maxWidth={fullWidth ? false : 'xl'}>{children}</Container>
       </Box>
-      <Footer/>
+      <Footer />
     </Box>
-  );
-};
+  )
+}
 
 BasicLayout.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node.isRequired,
   image: PropTypes.string,
-  fullWidth: PropTypes.bool
-};
+  fullWidth: PropTypes.bool,
+}
 
 BasicLayout.defaultProps = {
-  title: "",
+  title: '',
   image: `url(/Assents/Pedida2.jpeg)`,
-  fullWidth: false
-};
+  fullWidth: false,
+}
 
-export default BasicLayout;
+export default BasicLayout

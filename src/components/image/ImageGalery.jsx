@@ -43,10 +43,6 @@ const ImageItem = ({ image }) => {
     loadImage(setWidth, setHeight, image.img)
   }, [])
 
-  useEffect(() => {
-    console.log(`id: ${image.img} - width: ${width} - height: ${height}`)
-  }, [width, height])
-
   const smallItemStyles = {
     cursor: 'pointer',
     width: '100%',
@@ -103,32 +99,3 @@ ImageGalery.propTypes = {
 ImageGalery.defaultProps = {}
 
 export default ImageGalery
-
-/*
- <ImageList
-        sx={{ width: '100%', backgroundColor: '#FFF3F3' }}
-        variant="quilted"
-        cols={4}
-        rowHeight={121}
-        >
-        {imageList.map((item, idx) => (
-            <StyledImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
-                <img
-                    {...srcset(item.imgMin, 121, item.rows, item.cols)}
-                    className='fotoInterna'
-                    alt={item.title}
-                    loading="lazy"
-                    onClick={()=>handleSelectImage(idx)}
-                    
-                />
-            </StyledImageListItem>
-        ))}
-        </ImageList>
-        <Dialog onClose={()=>setOpen(false)} open={open}>
-            <DialogTitle>Foto</DialogTitle>
-            <img 
-                src={imageList[activeIndex].img}
-                alt={imageList[activeIndex].title}
-            />
-        </Dialog>
-  */

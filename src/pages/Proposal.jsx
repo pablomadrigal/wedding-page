@@ -9,13 +9,11 @@ import ReactPlayer from 'react-player/lazy'
 import FlowerDivider from '../components/image/FlowerDivider'
 import GeneralCard from '../components/cards/GeneralCard'
 import background from '../images/backgrounds/FondoAzul1.jpg'
+import Portada from '../images/portadas/FloresAmarillas-min.jpg'
 
 const Proposal = () => {
   return (
-    <BasicLayout
-      title="Home Page"
-      image={`url(${process.env.PUBLIC_URL}/Assents/Pedida2.jpeg)`}
-    >
+    <BasicLayout title="Home Page" image={Portada}>
       <Grid container spacing={2} sx={{ mb: '15px' }}>
         <Grid item xs={12} sm={12} md={6} lg={6}>
           <GeneralCard
