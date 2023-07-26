@@ -51,7 +51,7 @@ TimelineItemCard.defaultProps = {
 const TimelinePage = () => {
   return (
     <BasicLayout title="Timeline" image={Portada}>
-      <Timeline position="alternate" sx={{ backgroundColor: '#FFF3F3' }}>
+      <Timeline position="alternate">
         {timelineEvents.map((event, idx) => {
           return (
             <TimelineItem key={event.id}>

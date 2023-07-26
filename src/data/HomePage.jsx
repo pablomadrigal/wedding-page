@@ -2,6 +2,9 @@ import paloma1 from '../images/nosotros/Nosotros1.webp'
 import paloma2 from '../images/nosotros/Nosotros2.webp'
 import pablo1 from '../images/nosotros/Nosotros3.webp'
 import pablo2 from '../images/nosotros/Nosotros4.webp'
+import pabloGif from '../images/nosotros/Pablo.gif'
+import palomaGif from '../images/nosotros/Paloma.gif'
+
 import backgroundPaloma from '../images/backgrounds/FondoAzul1.jpg'
 import backgroundPablo from '../images/backgrounds/FondoAzul1Rev.jpg'
 
@@ -135,21 +138,22 @@ export const galeryImages = [
   },
 ]
 
-export const coupleImages = [
-  {
-    name: 'Pablo Madrigal',
-    description:
-      'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
-    backgroundImg: backgroundPablo,
-    imgURL1: pablo1,
-    imgURL2: pablo2,
-  },
-  {
-    name: 'Paloma Ruiz',
-    description:
-      'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
-    backgroundImg: backgroundPaloma,
-    imgURL1: paloma1,
-    imgURL2: paloma2,
-  },
-]
+export const pabloCard = {
+  name: 'Pablo Madrigal',
+  description:
+    'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
+  backgroundImg: backgroundPablo,
+  imgURL1: pablo1,
+  imgURL2: pablo2,
+  gifURL: pabloGif,
+}
+
+export const palomaCard = {
+  name: 'Paloma Ruiz',
+  description:
+    'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
+  backgroundImg: backgroundPaloma,
+  imgURL1: paloma1,
+  imgURL2: paloma2,
+  gifURL: palomaGif,
+}
