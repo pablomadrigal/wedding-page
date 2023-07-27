@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player/lazy'
 import FlowerDivider from '../components/image/FlowerDivider'
 import GeneralCard from '../components/cards/GeneralCard'
 import background from '../images/backgrounds/FondoAzul1.jpg'
-import Portada from '../images/portadas/FloresAmarillas-min.jpg'
+import Portada from '../images/portadas/Propuesta-min.png'
 
 const Proposal = () => {
   return (

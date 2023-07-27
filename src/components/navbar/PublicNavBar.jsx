@@ -15,6 +15,7 @@ const firstLinks = [
 
 const secondLinks = [
   { id: 'timeline', label: 'Nuestra historia', url: '/timeline' },
+  { id: 'timeline', label: 'Invitados', url: '/timeline' },
 ]
 
 const linkStyles = {
@@ -40,7 +41,10 @@ const PublicNavBar = () => {
   const theme = useTheme()
   const cellphone = useMediaQuery(theme.breakpoints.down('sm'))
   return (
-    <Toolbar disableGutters sx={{ justifyContent: 'space-around' }}>
+    <Toolbar
+      disableGutters
+      sx={{ justifyContent: cellphone ? 'space-between' : 'space-around' }}
+    >
       {!cellphone &&
         firstLinks.map((item) => (
           <Link key={item.id} to={item.url} style={linkStyles}>
