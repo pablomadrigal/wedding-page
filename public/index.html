@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cardo" rel="stylesheet">
-    <link href="%PUBLIC_URL%/index.css" rel="stylesheet">
     <title>Boda Pablo y Paloma</title>
     <link
       rel="stylesheet"
@@ -29,6 +28,27 @@
         }
       }(window.location))
     </script>
+    <style>
+      body {
+        background-color: #fffbf0; 
+      }
+      @media (min-width: 600px){
+        .background {
+          background-color: #fffbf0; 
+          background-image: url("%PUBLIC_URL%/assent/home1.png"); 
+          @supports (background-image: url("%PUBLIC_URL%/assent/home1.webp")) {
+            background-image: url("%PUBLIC_URL%/assent/home1.webp");
+          }
+          background-repeat: repeat-y;
+          background-size: 100%;
+        }
+      }
+      @media (max-width: 600px){
+        .background {
+          background-color: #fffbf0;
+        }
+      }
+      </style>
   </head>
   <body>
     <div class="background">

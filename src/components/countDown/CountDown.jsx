@@ -1,5 +1,6 @@
 import { Grid, styled } from '@mui/material'
 import useCountdown from '../../hooks/useCountdown'
+import background from '../../images/backgrounds/background.png'
 
 const StyledParagraph = styled('p')({
   fontFamily: 'Alex Brush',
@@ -24,6 +25,8 @@ const CountDown = () => {
         alignItems: 'stretch',
         textAlign: 'center',
         backgroundColor: '#D0E2F1',
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'auto',
         width: '100vw',
         left: 0,
         color: 'white',
@@ -55,7 +58,6 @@ const CountDown = () => {
         lg={6}
         xl={6}
         sx={{
-          backgroundImage: 'public/Assents/backgrounds/FondoAzulCentral.png',
           height: '100px',
           mb: 2,
           display: 'flex',
