@@ -4,8 +4,13 @@ import CssBaseline from '@mui/material/CssBaseline'
 import NavBar from '../navbar/NavBar'
 import Footer from '../footer'
 import { Container } from '@mui/material'
+import { useEffect } from 'react'
 
 const BasicLayout = ({ title, children, image, fullWidth }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Box sx={{ width: '100%' }}>
       <CssBaseline />

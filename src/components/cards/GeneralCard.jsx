@@ -39,7 +39,9 @@ const GeneralCard = ({
       >
         {title}
       </Typography>
-      <p style={{ textAlign: 'center' }}>{description}</p>
+      <p style={{ textAlign: 'justify', whiteSpace: 'pre-line' }}>
+        {description}
+      </p>
     </Box>
   )
 }

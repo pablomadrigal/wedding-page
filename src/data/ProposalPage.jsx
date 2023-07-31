@@ -21,6 +21,8 @@ import pedida10 from '../images/Pedida/pedida10.jpg'
 import pedidaMin11 from '../images/Pedida/pedida-min11.jpg'
 import pedida11 from '../images/Pedida/pedida11.jpg'
 
+import background from '../images/backgrounds/FondoAzul1.jpg'
+
 export const galeryImages = [
   {
     img: pedida1,
@@ -94,3 +96,10 @@ export const galeryImages = [
     colsCel: 2,
   },
 ]
+
+export const proposalPageCard = {
+  title: 'La propuesta',
+  description:
+    'Era el 27 de diciembre de 2022, Paloma no sabía nada, ella creía que iba a una cena de graduación de una de sus mejores amigas y no se esperaba que era una celebración pero para ella, yo tenía ya 3 meses preparando todo con ayuda de su familia y amigas. \n \nPablo llegó de sorpresa a mty 2 días antes, estuvo viéndose con mis papás y mis amigas y yo jamás sospeché nada, seguía creyendo que estaba en Costa Rica y cuando lo vi me paralice ya que tenia 3 meses sin verlo y lo extrañaba muchísimo, al verlo ahí frente a mi con un letrero gigante que decía “marry me” no lo podía creer, mi sueño de estar con él para siempre se comenzaba a hacer realidad.',
+  image: background,
+}

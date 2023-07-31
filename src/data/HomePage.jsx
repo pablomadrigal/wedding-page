@@ -33,13 +33,6 @@ import general11Min from '../images/general/general11.webp'
 import general12 from '../images/general/general12.jpg'
 import general12Min from '../images/general/general12.webp'
 
-/*
-    rows: 2,
-    cols: 2,
-    rowsCel: 1,
-    colsCel: 1,
-*/
-
 export const galeryImages = [
   {
     img: general1,
@@ -126,7 +119,7 @@ export const pabloCard = {
 export const palomaCard = {
   name: 'Paloma Ruiz',
   description:
-    'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
+    'Hola! Me da mucha alegría compartir contigo este momento que es un sueño hecho realidad para nosotros, quiero que sepas que si estás aquí es porque eres muy importante para nosotros y que sin duda no queremos vivir este día sin ti. \n \n Espero disfrutes tanto este día como nosotros, prepara tu mejor outfit, tus ganas de bailar y tus zapatos más cómodos que queremos gozar este momento que Dios nos regala contigo. ',
   backgroundImg: backgroundPaloma,
   imgURL1: paloma1,
   imgURL2: paloma2,
