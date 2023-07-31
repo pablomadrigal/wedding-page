@@ -32,24 +32,20 @@ import general11 from '../images/general/general11.jpg'
 import general11Min from '../images/general/general11.webp'
 import general12 from '../images/general/general12.jpg'
 import general12Min from '../images/general/general12.webp'
-import general13 from '../images/general/general13.jpg'
-import general13Min from '../images/general/general13.webp'
-import general14 from '../images/general/general14.jpg'
-import general14Min from '../images/general/general14.webp'
-import general15 from '../images/general/general15.jpg'
-import general15Min from '../images/general/general15.webp'
-import general16 from '../images/general/general16.jpg'
-import general16Min from '../images/general/general16.webp'
-import general17 from '../images/general/general17.jpg'
-import general17Min from '../images/general/general17.webp'
-import general18 from '../images/general/general18.jpg'
-import general18Min from '../images/general/general18.webp'
+
+/*
+    rows: 2,
+    cols: 2,
+    rowsCel: 1,
+    colsCel: 1,
+*/
 
 export const galeryImages = [
   {
     img: general1,
     imgMin: general1Min,
     title: 'Pedida de matrimonio',
+    rows: 2,
   },
   {
     img: general2,
@@ -60,6 +56,7 @@ export const galeryImages = [
     img: general3,
     imgMin: general3Min,
     title: 'Pedida de matrimonio 3',
+    rows: 2,
   },
   {
     img: general4,
@@ -70,21 +67,39 @@ export const galeryImages = [
     img: general5,
     imgMin: general5Min,
     title: 'Pedida de matrimonio 5',
+    rows: 2,
+    rowsCel: 1,
   },
   {
     img: general6,
     imgMin: general6Min,
     title: 'Pedida de matrimonio 6',
+    rows: 2,
   },
   {
     img: general7,
     imgMin: general7Min,
     title: 'Pedida de matrimonio 7',
+    rows: 2,
   },
   {
     img: general8,
     imgMin: general8Min,
     title: 'Pedida de matrimonio 8',
+    rows: 2,
+  },
+  {
+    img: general10,
+    imgMin: general10Min,
+    title: 'Pedida de matrimonio 10',
+    rows: 2,
+    rowsCel: 1,
+  },
+  {
+    img: general12,
+    imgMin: general12Min,
+    title: 'Pedida de matrimonio 12',
+    rows: 2,
   },
   {
     img: general9,
@@ -92,48 +107,8 @@ export const galeryImages = [
     title: 'Pedida de matrimonio 9',
   },
   {
-    img: general10,
-    imgMin: general10Min,
-    title: 'Pedida de matrimonio 10',
-  },
-  {
     img: general11,
     imgMin: general11Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general12,
-    imgMin: general12Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general13,
-    imgMin: general13Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general14,
-    imgMin: general14Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general15,
-    imgMin: general15Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general16,
-    imgMin: general16Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general17,
-    imgMin: general17Min,
-    title: 'Pedida de matrimonio 11',
-  },
-  {
-    img: general18,
-    imgMin: general18Min,
     title: 'Pedida de matrimonio 11',
   },
 ]

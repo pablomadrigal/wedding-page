@@ -21,17 +21,25 @@ const loadImage = (setWidth, setHeight, imageUrl) => {
   }
 }
 
-const srcset = (image, size, rows = 1, cols = 1) => {
-  return {
-    src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${size * cols}&h=${
-      size * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
+const srcset = (image, sizeW, sizeH, rows = 1, cols = 1, cellphone = true) => {
+  if (cellphone) {
+    return {
+      src: `${image}?w=${sizeW * cols}&h=${sizeH * rows}&fit=crop&auto=format`,
+      srcSet: `${image}?w=${sizeW * cols}&h=${
+        sizeH * rows
+      }&fit=crop&auto=format&dpr=2 2x`,
+    }
+  } else {
+    return {
+      src: `${image}?w=${sizeW * cols}&h=${sizeH * rows}&fit=crop&auto=format`,
+    }
   }
 }
 
 const StyledImageListItem = styled(ImageListItem)({
   overflow: 'hidden',
+  textAlign: 'center',
+  color: 'white',
   '.fotoInterna': {
     opacity: 0.7,
     transition: '1s ease',
@@ -45,7 +53,7 @@ const StyledImageListItem = styled(ImageListItem)({
   },
 })
 
-const ImageItem = ({ image, size, cellphone }) => {
+const ImageItem = ({ image, sizeW, sizeH, cellphone, text }) => {
   const [width, setWidth] = useState(0)
   const [height, setHeight] = useState(0)
 
@@ -79,14 +87,30 @@ const ImageItem = ({ image, size, cellphone }) => {
             style={smallItemStyles}
             {...srcset(
               image.imgMin,
-              size,
+              sizeW,
+              sizeH,
               cellphone && image.rowsCel ? image.rowsCel : image.rows || 1,
-              cellphone && image.colsCel ? image.colsCel : image.cols || 1
+              cellphone && image.colsCel ? image.colsCel : image.cols || 1,
+              cellphone
             )}
             className="fotoInterna"
             ref={ref}
             onClick={open}
           />
+          {text && (
+            <h3
+              style={{
+                color: 'black',
+                position: 'absolute',
+                bottom: '0',
+                left: '0',
+                zIndex: 1,
+              }}
+            >
+              {' '}
+              {text}{' '}
+            </h3>
+          )}
         </StyledImageListItem>
       )}
     </Item>
@@ -96,12 +120,16 @@ const ImageItem = ({ image, size, cellphone }) => {
 ImageItem.propTypes = {
   image: PropTypes.object.isRequired,
   cellphone: PropTypes.bool,
-  size: PropTypes.number,
+  sizeW: PropTypes.number,
+  sizeH: PropTypes.number,
+  text: PropTypes.string,
 }
 
 ImageItem.defaultProps = {
   cellphone: false,
-  size: 121,
+  sizeW: 275,
+  sizeH: 200,
+  text: undefined,
 }
 
 const ImageGalery = ({ imageList }) => {
@@ -116,13 +144,15 @@ const ImageGalery = ({ imageList }) => {
         cols={cellphone ? 3 : 5}
         rowHeight={cellphone ? 100 : 200}
       >
-        {imageList.map((image) => {
+        {imageList.map((image, idx) => {
           return (
             <ImageItem
               key={image.img}
               image={image}
               cellphone={cellphone}
-              size={cellphone ? 100 : 100}
+              sizeW={cellphone ? 100 : 275}
+              sizeH={cellphone ? 100 : 200}
+              text={idx + 1}
             />
           )
         })}

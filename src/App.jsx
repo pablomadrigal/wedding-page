@@ -1,36 +1,40 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Home from "./pages/Home";
-import ErrorPage from "./pages/ErrorPage";
-import Login from "./pages/Login";
-import Proposal from "./pages/Proposal";
-import Timeline from "./pages/Timeline";
+import Home from './pages/Home'
+import ErrorPage from './pages/ErrorPage'
+import Login from './pages/Login'
+import Proposal from './pages/Proposal'
+import Timeline from './pages/Timeline'
+import Guest from './pages/Guest'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "proposal",
+    path: 'proposal',
     element: <Proposal />,
   },
   {
-    path: "login",
+    path: 'login',
     element: <Login />,
   },
   {
-    path: "timeline",
+    path: 'timeline',
     element: <Timeline />,
   },
-]);
+  {
+    path: 'guest',
+    element: <Guest />,
+  },
+  {
+    path: 'guest/:userId',
+    element: <Guest />,
+  },
+])
 
 export default function App() {
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />
 }
