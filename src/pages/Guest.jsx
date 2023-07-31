@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { useParams } from 'react-router-dom'
 import BasicLayout from '../components/layout/BasicLayout'
 import Portada from '../images/portadas/Invitados-min.png'
@@ -19,7 +18,7 @@ const Guest = () => {
   useEffect(() => {})
 
   return (
-    <BasicLayout title="Timeline" image={Portada}>
+    <BasicLayout title="Guest" image={Portada}>
       {guestInfo ? (
         <Typography>Guest: {guestInfo.name}</Typography>
       ) : (
@@ -49,19 +48,8 @@ const Guest = () => {
   )
 }
 
-Guest.propTypes = {
-  imageURL: PropTypes.string,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string,
-  reverse: PropTypes.bool,
-  cellphone: PropTypes.bool,
-}
+Guest.propTypes = {}
 
-Guest.defaultProps = {
-  imageURL: undefined,
-  description: undefined,
-  reverse: false,
-  cellphone: false,
-}
+Guest.defaultProps = {}
 
 export default Guest

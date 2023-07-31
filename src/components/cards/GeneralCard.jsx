@@ -22,6 +22,7 @@ const GeneralCard = ({
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundImage: `url(${backgroundImg})`,
+        opacity: 0.75,
       }}
     >
       {imgURL1 && imgURL2 && (

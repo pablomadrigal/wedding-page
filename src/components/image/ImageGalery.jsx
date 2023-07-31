@@ -144,7 +144,7 @@ const ImageGalery = ({ imageList }) => {
         cols={cellphone ? 3 : 5}
         rowHeight={cellphone ? 100 : 200}
       >
-        {imageList.map((image, idx) => {
+        {imageList.map((image) => {
           return (
             <ImageItem
               key={image.img}
@@ -152,7 +152,6 @@ const ImageGalery = ({ imageList }) => {
               cellphone={cellphone}
               sizeW={cellphone ? 100 : 275}
               sizeH={cellphone ? 100 : 200}
-              text={idx + 1}
             />
           )
         })}

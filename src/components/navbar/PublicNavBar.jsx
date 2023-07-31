@@ -15,7 +15,7 @@ const firstLinks = [
 
 const secondLinks = [
   { id: 'timeline', label: 'Nuestra historia', url: '/timeline' },
-  { id: 'timeline', label: 'Invitados', url: '/guest' },
+  { id: 'guest', label: 'Invitados', url: '/guest' },
 ]
 
 const linkStyles = {

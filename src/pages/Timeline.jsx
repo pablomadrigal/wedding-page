@@ -112,7 +112,7 @@ const TimelinePage = () => {
                 <TimelineItemCard
                   cellphone={cellphone}
                   {...event}
-                  reverse={idx % 2}
+                  reverse={idx % 2 === 1}
                 />
               </TimelineContent>
             </TimelineItem>
