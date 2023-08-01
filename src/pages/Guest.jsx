@@ -6,6 +6,7 @@ import { bankAccounts, guestInformation } from '../data/GuestPage'
 import {
   Alert,
   Box,
+  Button,
   Grid,
   IconButton,
   Snackbar,
@@ -51,6 +52,17 @@ const Guest = () => {
     setManualUserId(e.target.value)
   }
 
+  const onClickWeddingPlanner = () => {
+    window.open(
+      `https://api.whatsapp.com/send?phone=528135774070&text=*${
+        guestInfo.name
+      }*${
+        guestInfo.name && '%0A'
+      }Confirmo%20mi%20asistencia%20a%20la%20Boda%20de%20Paloma%20y%20Pablo%20%E2%9C%A8`,
+      '_blank'
+    )
+  }
+
   return (
     <BasicLayout title="Guest" image={Portada}>
       {error && (
@@ -64,7 +76,12 @@ const Guest = () => {
         </Snackbar>
       )}
 
-      <Grid container justifyContent="center" alignItems="center">
+      <Grid
+        container
+        justifyContent="center"
+        alignItems="center"
+        sx={{ mb: 10 }}
+      >
         <Grid item xs={12} sm={6} md={4} lg={6}>
           <FlowerDivider position={'down'} />
           <Box
@@ -92,7 +109,31 @@ const Guest = () => {
               }}
             >
               {guestInfo ? (
-                <Typography>Guest: {guestInfo.name}</Typography>
+                <>
+                  <Typography>{guestInfo.message}</Typography>
+                  <br />
+                  <Typography sx={{ fontWeight: 'bold' }}>
+                    Es por esto que hemos reservado para vos{' '}
+                    {guestInfo.numberGuests} espacio
+                    {guestInfo.numberGuests > 1 ? 's' : ''}
+                  </Typography>
+                  <br />
+                  <Typography>
+                    Te pedimos que por favor confirmes tu asistencia con nuestra
+                    Wedding Planner{' '}
+                    <Button
+                      onClick={onClickWeddingPlanner}
+                      variant="contained"
+                      sx={{
+                        backgroundImage: `url(${background})`,
+                        backgroundSize: 'cover',
+                        color: 'black',
+                      }}
+                    >
+                      haciendo click aqui
+                    </Button>
+                  </Typography>
+                </>
               ) : (
                 <>
                   {' '}
@@ -125,27 +166,30 @@ const Guest = () => {
           </Box>
           <FlowerDivider position={'up'} />
         </Grid>
-      </Grid>
-      <Box>
-        <Typography variant="h4" textAlign="center">
-          Obsequio
-        </Typography>
-        <Typography textAlign="justify">
-          Si desan bendecirnos con un detalle para nosotros, agradecemos que sus
-          muestras de cariño sea de forma monetaria a través de alguna de las
-          siguientes formas:
-        </Typography>
-        {bankAccounts.map((account) => (
-          <Box key={account.id}>
-            <Typography variant="h5">{account.moneda}</Typography>
-            {account.cuentas.map((cuenta) => (
-              <Typography key={cuenta.id}>{`${cuenta.nombre} ${
-                cuenta.tipo ? `- ${cuenta.tipo}:` : ''
-              } ${cuenta.numero} (${cuenta.nombrePersona})`}</Typography>
+        <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
+        <Grid item xs={12} sm={6} md={4} lg={6}>
+          <Box>
+            <Typography variant="h4" textAlign="center">
+              Obsequio
+            </Typography>
+            <Typography textAlign="justify">
+              Si desan bendecirnos con un detalle para nosotros, agradecemos que
+              sus muestras de cariño sea de forma monetaria a través de alguna
+              de las siguientes formas:
+            </Typography>
+            {bankAccounts.map((account) => (
+              <Box key={account.id}>
+                <Typography variant="h5">{account.moneda}</Typography>
+                {account.cuentas.map((cuenta) => (
+                  <Typography key={cuenta.id}>{`${cuenta.nombre} ${
+                    cuenta.tipo ? `- ${cuenta.tipo}:` : ''
+                  } ${cuenta.numero} (${cuenta.nombrePersona})`}</Typography>
+                ))}
+              </Box>
             ))}
           </Box>
-        ))}
-      </Box>
+        </Grid>
+      </Grid>
     </BasicLayout>
   )
 }

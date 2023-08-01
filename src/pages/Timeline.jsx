@@ -24,13 +24,18 @@ const TimelineItemCard = ({
   cellphone,
 }) => {
   return (
-    <Grid container spacing={2} direction={reverse ? 'row-reverse' : 'row'}>
+    <Grid
+      container
+      spacing={2}
+      direction={reverse ? 'row-reverse' : 'row'}
+      sx={{ borderRadius: '70px', backgroundColor: '#fffbf0' }}
+    >
       {imageURL && !cellphone && (
         <Grid xs={0} sm={0} md={6} item>
           <img
             src={imageURL}
             alt={title}
-            style={{ width: '100%', height: 'auto' }}
+            style={{ width: '100%', height: 'auto', borderRadius: '25px' }}
           />
         </Grid>
       )}
@@ -90,7 +95,11 @@ const TimelinePage = () => {
                         <img
                           src={event.imageURL}
                           alt={event.title}
-                          style={{ width: '100%', height: 'auto' }}
+                          style={{
+                            width: '100%',
+                            height: 'auto',
+                            borderRadius: '25px',
+                          }}
                         />
                       </Box>
                     )}

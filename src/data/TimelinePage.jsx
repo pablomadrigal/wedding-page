@@ -64,7 +64,7 @@ export const timelineEvents = [
     title:
       'Primer viaje de Paloma a Costa Rica y por primera vez hablan de casarse',
     description:
-      'Estábamos en una playa platicando de otras cosas y de pronto Pablo me suelta la pregunta ¿En cuánto tiempo te gustaría dar el siguiente paso?',
+      'Estábamos en una playa platicando de otras cosas y de pronto Pablo me suelta la pregunta ¿En cuánto tiempo te gustaría dar el siguiente paso?, me quede sin palabras unos segundos pero me emocionaba mucho planear nuestro futuro juntos.',
   },
   {
     id: 8,

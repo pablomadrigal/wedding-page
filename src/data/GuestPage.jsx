@@ -4,6 +4,7 @@ export const guestInformation = [
     name: 'Pablo',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+    numberGuests: 2,
   },
 ]
 
