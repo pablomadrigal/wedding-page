@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import Timeline from '@mui/lab/Timeline'
 import TimelineItem from '@mui/lab/TimelineItem'
 import TimelineSeparator from '@mui/lab/TimelineSeparator'
@@ -6,67 +5,14 @@ import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
 import TimelineDot from '@mui/lab/TimelineDot'
-import FastfoodIcon from '@mui/icons-material/Fastfood'
 import Typography from '@mui/material/Typography'
-import Grid from '@mui/material/Grid'
-import BasicLayout from '../components/layout/BasicLayout'
-import { timelineEvents } from '../data/TimelinePage'
-import Portada from '../assents/portadas/Historia-min.png'
 import { Box, Stack } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery'
-
-const TimelineItemCard = ({
-  imageURL,
-  title,
-  description,
-  reverse,
-  cellphone,
-}) => {
-  return (
-    <Grid
-      container
-      spacing={2}
-      direction={reverse ? 'row-reverse' : 'row'}
-      sx={{ borderRadius: '70px', backgroundColor: '#fffbf0' }}
-    >
-      {imageURL && !cellphone && (
-        <Grid xs={0} sm={0} md={6} item>
-          <img
-            src={imageURL}
-            alt={title}
-            style={{ width: '100%', height: 'auto', borderRadius: '25px' }}
-          />
-        </Grid>
-      )}
-      <Grid xs={12} sm={12} md={imageURL ? 6 : 12} item>
-        <Typography
-          variant="h6"
-          component="span"
-          sx={{ fontSize: cellphone ? '1rem' : '1.5rem' }}
-        >
-          {title}
-        </Typography>
-        {description && <Typography variant="body2">{description}</Typography>}
-      </Grid>
-    </Grid>
-  )
-}
-
-TimelineItemCard.propTypes = {
-  imageURL: PropTypes.string,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string,
-  reverse: PropTypes.bool,
-  cellphone: PropTypes.bool,
-}
-
-TimelineItemCard.defaultProps = {
-  imageURL: undefined,
-  description: undefined,
-  reverse: false,
-  cellphone: false,
-}
+import TimelineItemCard from '../components/timeline/TimelineItemCard'
+import BasicLayout from '../components/layout/BasicLayout'
+import { timelineEvents } from '../data/TimelinePage'
+import Portada from '../assents/portadas/Historia-min.png'
 
 const TimelinePage = () => {
   const theme = useTheme()
@@ -108,13 +54,7 @@ const TimelinePage = () => {
               )}
               <TimelineSeparator>
                 <TimelineConnector />
-                {event.icon ? (
-                  <TimelineDot>
-                    <FastfoodIcon />
-                  </TimelineDot>
-                ) : (
-                  <TimelineDot />
-                )}
+                <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>

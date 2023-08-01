@@ -113,7 +113,6 @@ const Guest = () => {
               </>
             ) : (
               <>
-                {' '}
                 <Typography>Favor ingresar clave de invitado</Typography>
                 <TextField
                   sx={{ m: 2 }}
