@@ -21,7 +21,8 @@ function Footer() {
           }}
         >
           <Typography variant="caption">
-            All rights reserved - Copyright Pablo Madrigal ©2022.
+            All rights reserved - Copyright Pablo Madrigal ©
+            {new Date().getFullYear()}.
           </Typography>
         </Box>
       </Container>
