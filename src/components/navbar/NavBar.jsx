@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Container, styled } from '@mui/material'
 import MuiAppBar from '@mui/material/AppBar'
 import PublicNavBar from './PublicNavBar'
-import background from '../../images/backgrounds/background.png'
+import background from '../../assents/backgrounds/background.png'
 
 const AppBar = styled(MuiAppBar)(({ theme }) => ({
   paddingTop: '15px',

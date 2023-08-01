@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import useDetectMobile from '../../hooks/useDetectMobile'
 
-import Arriba from '../../images/backgrounds/Arriba.png'
-import Intermedio from '../../images/backgrounds/Intermedio.png'
-import Abajo from '../../images/backgrounds/Abajo.png'
+import Arriba from '../../assents/backgrounds/Arriba.png'
+import Intermedio from '../../assents/backgrounds/Intermedio.png'
+import Abajo from '../../assents/backgrounds/Abajo.png'
 
 const filteredItems = (filter) => {
   return {

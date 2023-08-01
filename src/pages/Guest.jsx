@@ -1,8 +1,12 @@
 import { useParams } from 'react-router-dom'
 import BasicLayout from '../components/layout/BasicLayout'
-import Portada from '../images/portadas/Invitados-min.png'
+import Portada from '../assents/portadas/Invitados-min.png'
 import { useState, useEffect } from 'react'
-import { bankAccounts, guestInformation } from '../data/GuestPage'
+import {
+  bankAccounts,
+  guestInformation,
+  scheduleInformation,
+} from '../data/GuestPage'
 import {
   Alert,
   Box,
@@ -15,14 +19,15 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material'
-import background from '../images/backgrounds/background.png'
+import background from '../assents/backgrounds/background.png'
 import FlowerDivider from '../components/image/FlowerDivider'
 import { Search } from '@mui/icons-material'
+import ScheduleItem from '../components/schedule/ScheduleItem'
 
 const Guest = () => {
   let { userId } = useParams()
   const [guestInfo, setGuestInfo] = useState(null)
-  const [manualUserId, setManualUserId] = useState(null)
+  const [manualUserId, setManualUserId] = useState(undefined)
   const [error, setError] = useState(null)
   const theme = useTheme()
   const cellphone = useMediaQuery(theme.breakpoints.down('sm'))
@@ -167,7 +172,23 @@ const Guest = () => {
           <FlowerDivider position={'up'} />
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
-        <Grid item xs={12} sm={6} md={4} lg={6}>
+        <Grid item container xs={12} sm={6} md={4} lg={6} spacing={5}>
+          {scheduleInformation.map((schedule) => (
+            <ScheduleItem
+              key={schedule.id}
+              icon={schedule.icon}
+              title={schedule.title}
+              location={schedule.location}
+              time={schedule.time}
+              lat={schedule.lat}
+              long={schedule.long}
+            />
+          ))}
+        </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12} sx={{ mt: 10 }}>
+          <FlowerDivider onlyMobile />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={6} sx={{ mt: 10 }}>
           <Box>
             <Typography variant="h4" textAlign="center">
               Obsequio

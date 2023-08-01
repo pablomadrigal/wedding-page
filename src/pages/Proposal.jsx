@@ -8,7 +8,7 @@ import { galeryImages, proposalPageCard } from '../data/ProposalPage'
 import ReactPlayer from 'react-player/lazy'
 import FlowerDivider from '../components/image/FlowerDivider'
 import GeneralCard from '../components/cards/GeneralCard'
-import Portada from '../images/portadas/Propuesta-min.png'
+import Portada from '../assents/portadas/Propuesta-min.png'
 
 const Proposal = () => {
   return (

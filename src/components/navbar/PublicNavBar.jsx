@@ -5,7 +5,7 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 import MenuIcon from '@mui/icons-material/Menu'
 import { Link } from 'react-router-dom'
 
-import Logo from '../../images/LogoBoda-Blanco.png'
+import Logo from '../../assents/LogoBoda-Blanco.png'
 import { useState } from 'react'
 
 const firstLinks = [

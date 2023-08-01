@@ -1,6 +1,6 @@
 import { Grid, styled } from '@mui/material'
 import useCountdown from '../../hooks/useCountdown'
-import background from '../../images/backgrounds/background.png'
+import background from '../../assents/backgrounds/background.png'
 
 const StyledParagraph = styled('p')({
   fontFamily: 'Alex Brush',

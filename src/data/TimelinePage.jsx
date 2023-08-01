@@ -1,13 +1,13 @@
-import timeline1 from '../images/timeline/timeline1.jpeg'
-import timeline2 from '../images/timeline/timeline2.jpg'
-import timeline3 from '../images/timeline/timeline3.jpg'
-import timeline4 from '../images/timeline/timeline4.jpeg'
-import timeline5 from '../images/timeline/timeline5.jpeg'
-import timeline6 from '../images/timeline/timeline6.jpeg'
-import timeline7 from '../images/timeline/timeline7.jpeg'
-import timeline8 from '../images/timeline/timeline8.jpeg'
-import timeline9 from '../images/timeline/timeline9.jpeg'
-import timeline10 from '../images/timeline/timeline10.jpeg'
+import timeline1 from '../assents/timeline/timeline1.jpeg'
+import timeline2 from '../assents/timeline/timeline2.jpg'
+import timeline3 from '../assents/timeline/timeline3.jpg'
+import timeline4 from '../assents/timeline/timeline4.jpeg'
+import timeline5 from '../assents/timeline/timeline5.jpeg'
+import timeline6 from '../assents/timeline/timeline6.jpeg'
+import timeline7 from '../assents/timeline/timeline7.jpeg'
+import timeline8 from '../assents/timeline/timeline8.jpeg'
+import timeline9 from '../assents/timeline/timeline9.jpeg'
+import timeline10 from '../assents/timeline/timeline10.jpeg'
 
 export const timelineEvents = [
   {

@@ -1,3 +1,7 @@
+import { ReactComponent as ChurchIconSvg } from '../assents/icons/ChurchIcon.svg'
+import { ReactComponent as ReceptionIconSvg } from '../assents/icons/ReceptionIcon.svg'
+import { ReactComponent as BusIconSvg } from '../assents/icons/ReceptionIcon.svg'
+
 export const guestInformation = [
   {
     id: 'OFUTMS',
@@ -5,6 +9,36 @@ export const guestInformation = [
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
     numberGuests: 2,
+  },
+]
+
+export const scheduleInformation = [
+  {
+    id: 'Misa',
+    title: 'Ceremonia religiosa',
+    icon: <ChurchIconSvg />,
+    location: 'Basilica La Purisima Concepción',
+    time: '14:30 HRS',
+    lat: 25.6697748,
+    long: -100.3262888,
+  },
+  {
+    id: 'Paseo',
+    title: 'Viaje por Santiago',
+    icon: <BusIconSvg />,
+    location: 'Princess Wedding Garden',
+    time: '19:30 HRS',
+    lat: 25.6697748,
+    long: -100.3262888,
+  },
+  {
+    id: 'Fiesta',
+    title: 'Recepción',
+    icon: <ReceptionIconSvg />,
+    location: 'Princess Wedding Garden',
+    time: '19:30 HRS',
+    lat: 25.6697748,
+    long: -100.3262888,
   },
 ]
 

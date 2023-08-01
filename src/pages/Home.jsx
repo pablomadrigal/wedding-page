@@ -8,7 +8,7 @@ import { pabloCard, palomaCard, galeryImages } from '../data/HomePage'
 import FlowerDivider from '../components/image/FlowerDivider'
 import CountDown from '../components/countDown/CountDown'
 import GeneralCard from '../components/cards/GeneralCard'
-import Portada from '../images/portadas/Home-min.png'
+import Portada from '../assents/portadas/Home-min.png'
 
 const Home = () => {
   return (
