@@ -7,20 +7,27 @@ import LocationOnIcon from '@mui/icons-material/LocationOn'
 import DirectionsIcon from '@mui/icons-material/Directions'
 import background from '../../assents/backgrounds/background.png'
 
-const ScheduleItem = ({ title, icon, location, time, lat, long }) => {
-  const [isSafari, setIsSafari] = useState(false)
+const ScheduleItem = ({
+  title,
+  icon,
+  location,
+  description,
+  time,
+  lat,
+  long,
+}) => {
+  const [isAndroid, setIsAndroid] = useState(false)
 
   useEffect(() => {
-    const chromeAgent = window.navigator.userAgent.indexOf('Chrome') > -1
-    const safariAgent = window.navigator.userAgent.indexOf('Safari') > -1
-    if (!chromeAgent && safariAgent) setIsSafari(true)
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera
+    if (/android/i.test(userAgent)) setIsAndroid(true)
   }, [])
 
   const onClickGoTo = (lat, long) => {
     window.open(
-      isSafari
-        ? `http://maps.apple.com/?q=${lat},${long}`
-        : `geo:0,0?q=${lat},${long}`,
+      isAndroid
+        ? `geo:0,0?q=${lat},${long}`
+        : `http://maps.apple.com/?q=${lat},${long}`,
       '_blank'
     )
   }
@@ -35,6 +42,7 @@ const ScheduleItem = ({ title, icon, location, time, lat, long }) => {
           <LocationOnIcon sx={{ verticalAlign: 'middle' }} />
           {location}
         </Typography>
+        {description && <Typography variant="h6">{description}</Typography>}
         <Typography variant="h6">
           <AccessTimeIcon sx={{ verticalAlign: 'middle' }} /> {time}
         </Typography>
@@ -58,6 +66,7 @@ ScheduleItem.propTypes = {
   title: PropTypes.string,
   icon: PropTypes.node,
   location: PropTypes.string,
+  description: PropTypes.string,
   time: PropTypes.string,
   lat: PropTypes.number,
   long: PropTypes.number,

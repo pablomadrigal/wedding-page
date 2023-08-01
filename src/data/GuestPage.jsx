@@ -1,6 +1,6 @@
 import { ReactComponent as ChurchIconSvg } from '../assents/icons/ChurchIcon.svg'
 import { ReactComponent as ReceptionIconSvg } from '../assents/icons/ReceptionIcon.svg'
-import { ReactComponent as BusIconSvg } from '../assents/icons/ReceptionIcon.svg'
+import { ReactComponent as BusIconSvg } from '../assents/icons/BusIcon.svg'
 
 export const guestInformation = [
   {
@@ -26,10 +26,11 @@ export const scheduleInformation = [
     id: 'Paseo',
     title: 'Viaje por Santiago',
     icon: <BusIconSvg />,
-    location: 'Princess Wedding Garden',
-    time: '19:30 HRS',
-    lat: 25.6697748,
-    long: -100.3262888,
+    location: 'Pueblo Magico Santiago',
+    description: '(Regios favor ir en carro propio)',
+    time: '16:00 HRS',
+    lat: 25.4216649,
+    long: -100.1387526,
   },
   {
     id: 'Fiesta',
@@ -37,8 +38,8 @@ export const scheduleInformation = [
     icon: <ReceptionIconSvg />,
     location: 'Princess Wedding Garden',
     time: '19:30 HRS',
-    lat: 25.6697748,
-    long: -100.3262888,
+    lat: 25.4726162,
+    long: -100.1717237,
   },
 ]
 

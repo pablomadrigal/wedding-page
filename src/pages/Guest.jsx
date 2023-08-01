@@ -174,15 +174,7 @@ const Guest = () => {
         <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
         <Grid item container xs={12} sm={6} md={4} lg={6} spacing={5}>
           {scheduleInformation.map((schedule) => (
-            <ScheduleItem
-              key={schedule.id}
-              icon={schedule.icon}
-              title={schedule.title}
-              location={schedule.location}
-              time={schedule.time}
-              lat={schedule.lat}
-              long={schedule.long}
-            />
+            <ScheduleItem key={schedule.id} {...schedule} />
           ))}
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={12} sx={{ mt: 10 }}>
