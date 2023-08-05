@@ -10,6 +10,7 @@ import background from '../../assents/backgrounds/background.png'
 const ScheduleItem = ({
   title,
   icon,
+  icon2,
   location,
   description,
   time,
@@ -34,29 +35,36 @@ const ScheduleItem = ({
   return (
     <Grid item container>
       <Grid item xs={6} sm={6} md={6} lg={6} sx={{ textAlign: 'end' }}>
-        {<SvgIcon sx={{ fontSize: 150 }}>{icon}</SvgIcon>}
+        {icon && <SvgIcon sx={{ fontSize: icon2 ? 100 : 150 }}>{icon}</SvgIcon>}
+        {icon2 && <SvgIcon sx={{ fontSize: 100 }}>{icon2}</SvgIcon>}
       </Grid>
       <Grid item xs={6} sm={6} md={6} lg={6} sx={{ textAlign: 'center' }}>
         <Typography variant="h4">{title}</Typography>
-        <Typography variant="h6">
-          <LocationOnIcon sx={{ verticalAlign: 'middle' }} />
-          {location}
-        </Typography>
+        {location && (
+          <Typography variant="h6">
+            <LocationOnIcon sx={{ verticalAlign: 'middle' }} />
+            {location}
+          </Typography>
+        )}
         {description && <Typography variant="h6">{description}</Typography>}
-        <Typography variant="h6">
-          <AccessTimeIcon sx={{ verticalAlign: 'middle' }} /> {time}
-        </Typography>
-        <Button
-          onClick={() => onClickGoTo(lat, long)}
-          variant="contained"
-          sx={{
-            backgroundImage: `url(${background})`,
-            backgroundSize: 'cover',
-            color: 'white',
-          }}
-        >
-          <DirectionsIcon /> Ir al lugar
-        </Button>
+        {time && (
+          <Typography variant="h6">
+            <AccessTimeIcon sx={{ verticalAlign: 'middle' }} /> {time}
+          </Typography>
+        )}
+        {lat && long && (
+          <Button
+            onClick={() => onClickGoTo(lat, long)}
+            variant="contained"
+            sx={{
+              backgroundImage: `url(${background})`,
+              backgroundSize: 'cover',
+              color: 'white',
+            }}
+          >
+            <DirectionsIcon /> Ir al lugar
+          </Button>
+        )}
       </Grid>
     </Grid>
   )
@@ -65,6 +73,7 @@ const ScheduleItem = ({
 ScheduleItem.propTypes = {
   title: PropTypes.string,
   icon: PropTypes.node,
+  icon2: PropTypes.node,
   location: PropTypes.string,
   description: PropTypes.string,
   time: PropTypes.string,

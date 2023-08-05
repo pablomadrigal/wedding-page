@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { Container, Grid, Typography } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 import BasicLayout from '../components/layout/BasicLayout'
 
 import ImageGalery from '../components/image/ImageGalery'
@@ -9,22 +9,13 @@ import FlowerDivider from '../components/image/FlowerDivider'
 import CountDown from '../components/countDown/CountDown'
 import GeneralCard from '../components/cards/GeneralCard'
 import Portada from '../assents/portadas/Home-min.png'
+import BibleVerse from '../components/hero/BibleVerse'
 
 const Home = () => {
   return (
     <BasicLayout title="Home Page" image={Portada} fullWidth>
       <Container sx={{ textAlign: 'center' }}>
-        <Typography variant="h1" sx={{ fontSize: '2rem', mb: 2 }}>
-          Bienvenido a nuestra pagina web
-        </Typography>
-        <Typography variant="p" sx={{ fontSize: '1.3rem', mb: 2 }}>
-          Si estas aquí, es por que eres muy importante para nosotros y queremos
-          que seas parte de este día tan especial. Hicimos esta página web no
-          solo por que &ldquo;habia&rdquo; que hacerla, sino por que es una
-          manera de que podamos compartir virtualmente, te invitamos a ingresar
-          con tu usuario y contraseña para poder ver los eventos que se realizan
-          en el día.
-        </Typography>
+        <BibleVerse />
       </Container>
       <CountDown />
       <FlowerDivider onlyMobile />

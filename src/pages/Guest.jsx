@@ -2,10 +2,7 @@ import { useParams } from 'react-router-dom'
 import BasicLayout from '../components/layout/BasicLayout'
 import Portada from '../assents/portadas/Invitados-min.png'
 import { useState, useEffect } from 'react'
-import {
-  guestInformation,
-  scheduleInformation,
-} from '../data/GuestPage'
+import { guestInformation, scheduleInformation } from '../data/GuestPage'
 import {
   Alert,
   Button,
@@ -21,6 +18,9 @@ import { Search } from '@mui/icons-material'
 import ScheduleItem from '../components/schedule/ScheduleItem'
 import GuestCard from '../components/cards/GuestCard'
 import RegistryCard from '../components/cards/RegistryCard'
+import BibleVerse from '../components/hero/BibleVerse'
+import { ReactComponent as MenIcon } from '../assents/icons/MenIcon.svg'
+import { ReactComponent as WomenIcon } from '../assents/icons/WomenIcon.svg'
 
 const Guest = () => {
   let { userId } = useParams()
@@ -77,6 +77,8 @@ const Guest = () => {
         </Snackbar>
       )}
 
+      <BibleVerse />
+
       <Grid
         container
         justifyContent="center"
@@ -87,12 +89,22 @@ const Guest = () => {
           <GuestCard>
             {guestInfo ? (
               <>
-                <Typography>{guestInfo.message}</Typography>
+                <Typography align="justify">
+                  Con alegría te queremos invitar a nuestra boda que se
+                  celebrará el día{' '}
+                  <span style={{ fontWeight: 'bold' }}>
+                    viernes 20 de octubre del 2023
+                  </span>
+                </Typography>
                 <br />
-                <Typography sx={{ fontWeight: 'bold' }}>
+                <Typography align="center">{guestInfo.message}</Typography>
+                <br />
+                <Typography align="center" sx={{ fontWeight: 'bold' }}>
                   Es por esto que hemos reservado para vos{' '}
-                  {guestInfo.numberGuests} espacio
-                  {guestInfo.numberGuests > 1 ? 's' : ''}
+                  {guestInfo.numberGuests} lugar
+                  {guestInfo.numberGuests > 1 ? 'es' : ''}
+                  <br />
+                  (Los lugares no son transferibles)
                 </Typography>
                 <br />
                 <Typography>
@@ -141,14 +153,25 @@ const Guest = () => {
           </GuestCard>
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
-        <Grid item container xs={12} sm={6} md={4} lg={6} spacing={5}>
-          {scheduleInformation.map((schedule) => (
-            <ScheduleItem key={schedule.id} {...schedule} />
-          ))}
-        </Grid>
+        {guestInfo && (
+          <Grid item container xs={12} sm={6} md={4} lg={6} spacing={5}>
+            {scheduleInformation.map((schedule) => (
+              <ScheduleItem key={schedule.id} {...schedule} />
+            ))}
+          </Grid>
+        )}
         <Grid item xs={12} sm={12} md={12} lg={12} sx={{ mt: 10 }}>
           <FlowerDivider onlyMobile />
         </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={6}>
+          <ScheduleItem
+            icon={<MenIcon />}
+            icon2={<WomenIcon />}
+            title="Codigo de Vestimenta"
+            description="Formal"
+          />
+        </Grid>
+        <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
         <Grid item xs={12} sm={6} md={4} lg={6} sx={{ mt: 10 }}>
           <RegistryCard />
         </Grid>

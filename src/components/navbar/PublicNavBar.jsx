@@ -5,7 +5,8 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 import MenuIcon from '@mui/icons-material/Menu'
 import { Link } from 'react-router-dom'
 
-import Logo from '../../assents/LogoBoda-Blanco.png'
+//import Logo from '../../assents/LogoBoda-Blanco.png'
+import newLogo from '../../assents/icons/Logo.svg'
 import { useState } from 'react'
 
 const firstLinks = [
@@ -51,7 +52,7 @@ const PublicNavBar = () => {
             {item.label}
           </Link>
         ))}
-      <img src={Logo} alt="Logo" width="100" height="100"></img>
+      <img src={newLogo} alt="Logo" width="100" height="100"></img>
       {!cellphone &&
         secondLinks.map((item) => (
           <Link key={item.id} to={item.url} style={linkStyles}>

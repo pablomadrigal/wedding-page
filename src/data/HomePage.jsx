@@ -109,7 +109,7 @@ export const galeryImages = [
 export const pabloCard = {
   name: 'Pablo Madrigal',
   description:
-    'In at enim dolor. Curabitur tristique justo turpis, ut porttitor lectus ornare et. Mauris vel est diam. Quisque varius est metus. Aliquam tristique at mauris eget egestas. Mauris sit amet varius mauris. Nullam at eleifend turpis. Donec mollis, lacus sagittis tincidunt ornare, metus turpis ullamcorper tortor, cursus lacinia arcu ipsum quis turpis. In rutrum tellus non accumsan tempor. Aenean vel elit fringilla, malesuada diam vitae, mollis dui. Vestibulum odio urna, vulputate sed condimentum a, tempus id sem. Pellentesque consectetur felis non nibh tempor, nec vulputate tortor consequat. Pellentesque dictum porttitor massa, id lacinia eros tempus pellentesque. Nam mattis mauris turpis, eget luctus lectus feugiat in.',
+    'Si estas aquí, es por que eres muy importante para nosotros y queremos que seas parte de este día tan especial. Hicimos esta página web no solo por que "habia"; que hacerla, sino por que es una manera de que podamos compartir virtualmente, te invitamos a ingresar con tu usuario y contraseña para poder ver los eventos que se realizan en el día.',
   backgroundImg: backgroundPablo,
   imgURL1: pablo1,
   imgURL2: pablo2,
