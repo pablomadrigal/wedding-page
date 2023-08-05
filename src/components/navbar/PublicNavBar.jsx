@@ -1,12 +1,17 @@
 import PropTypes from 'prop-types'
 
-import { IconButton, Menu, MenuItem, Toolbar, useTheme } from '@mui/material'
+import {
+  IconButton,
+  Menu,
+  MenuItem,
+  SvgIcon,
+  Toolbar,
+  useTheme,
+} from '@mui/material'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import MenuIcon from '@mui/icons-material/Menu'
 import { Link } from 'react-router-dom'
-
-//import Logo from '../../assents/LogoBoda-Blanco.png'
-import newLogo from '../../assents/icons/Logo.svg'
+import { ReactComponent as LogoIcon } from '../../assents/icons/Logo.svg'
 import { useState } from 'react'
 
 const firstLinks = [
@@ -52,7 +57,7 @@ const PublicNavBar = () => {
             {item.label}
           </Link>
         ))}
-      <img src={newLogo} alt="Logo" width="100" height="100"></img>
+      <SvgIcon sx={{ fontSize: 100 }}>{<LogoIcon />}</SvgIcon>
       {!cellphone &&
         secondLinks.map((item) => (
           <Link key={item.id} to={item.url} style={linkStyles}>
