@@ -109,7 +109,7 @@ export const galeryImages = [
 export const pabloCard = {
   name: 'Pablo Madrigal',
   description:
-    'Si estas aquí, es por que eres muy importante para nosotros y queremos que seas parte de este día tan especial. Hicimos esta página web no solo por que "habia"; que hacerla, sino por que es una manera de que podamos compartir virtualmente, te invitamos a ingresar con tu usuario y contraseña para poder ver los eventos que se realizan en el día.',
+    'Si estas aquí, es por que eres muy importante para nosotros y queremos que seas parte de este día tan especial. Hice esta página web no solo por que "había" que hacerla, sino por que es una manera de que podamos compartir virtualmente, aún si no podes acompañarnos en persona ese día, te invitamos a ingresar con tu usuario y contraseña y explorar la página (preferiblemente en la computadora) para que puedas ver un poco de lo que ha sido tener esta relación a traves de pantallas.\n\nEstoy muy agradecido con cada uno de ustedes por ser parte de mi vida y por acompañarnos en este tiempo de noviazgo a distancia, esperamos que sea solo el inicio de muchas otras memorias que tendremos juntos.Pero sobretodo agradecido con el Dios por que sus planes son perfectos y cambio completamente los planes que yo tenia cuando me fui a Monterrey por primera vez.\n\n',
   backgroundImg: backgroundPablo,
   imgURL1: pablo1,
   imgURL2: pablo2,
@@ -119,7 +119,7 @@ export const pabloCard = {
 export const palomaCard = {
   name: 'Paloma Ruiz',
   description:
-    'Hola! Me da mucha alegría compartir contigo este momento que es un sueño hecho realidad para nosotros, quiero que sepas que si estás aquí es porque eres muy importante para nosotros y que sin duda no queremos vivir este día sin ti. \n \n Espero disfrutes tanto este día como nosotros, prepara tu mejor outfit, tus ganas de bailar y tus zapatos más cómodos que queremos gozar este momento que Dios nos regala contigo. ',
+    'Hola! Nuestro gran día está muy cerca y no nos cabe en el corazón tanta alegría de sabernos tan amados por Dios y por todos ustedes que nos han acompañado durante toda nuestra historia, no puedo esperar para verlos bailar, reír y gozarla con nosotros, gracias por ser parte de esto y sostenernos con sus oraciones. \n\nSolo Dios pudo haber escrito una historia como la nuestra porque a pesar de la distancia entre países, Dios me permitió encontrar a mi mejor amigo y al hombre que superó todas mis expectativas a 2,444km de distancia y esperar por este día ha valido toda la pena del mundo porque a través de la manera en que Pablo me ama puedo ver a Dios amándome profundamente; mi mayor deseo para este día es que ustedes nuestros invitados también puedan experimentar el increíble amor de Dios a través de nuestra unión.\n\nLos quiero!',
   backgroundImg: backgroundPaloma,
   imgURL1: paloma1,
   imgURL2: paloma2,
