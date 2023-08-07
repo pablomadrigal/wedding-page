@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import Box from '@mui/material/Box'
-import { Grid, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
 import { bankAccounts, registryList } from '../../data/GuestPage'
 
 const RegistryCard = () => {
@@ -29,25 +29,10 @@ const RegistryCard = () => {
         Mesa de regalos
       </Typography>
       <br />
-      <Grid container spacing={2}>
-        {registryList.map((registry) => (
-          <Grid
-            item
-            xs={6}
-            md={6}
-            lg={6}
-            key={registry.id}
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              flexDirection: 'column',
-            }}
-          >
-            <Typography variant="h5">{registry.name}</Typography>
-            {registry.logo}
-          </Grid>
-        ))}
-      </Grid>
+      <Box sx={{ textAlign: 'center' }}>
+        <Typography variant="h5">{registryList.name}</Typography>
+        {registryList.logo}
+      </Box>
     </>
   )
 }
