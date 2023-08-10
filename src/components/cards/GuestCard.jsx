@@ -1,19 +1,16 @@
 import PropTypes from 'prop-types'
 import Box from '@mui/material/Box'
-import { useMediaQuery, useTheme } from '@mui/material'
 import background from '../../assents/backgrounds/background.png'
 import FlowerDivider from '../image/FlowerDivider'
 
 const GuestCard = ({ children }) => {
-  const theme = useTheme()
-  const cellphone = useMediaQuery(theme.breakpoints.down('sm'))
   return (
     <>
       <FlowerDivider position={'down'} />
       <Box
         sx={{
           width: '100%',
-          height: cellphone ? '300px' : '500px',
+          height: '100%',
           backgroundImage: `url(${background})`,
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',

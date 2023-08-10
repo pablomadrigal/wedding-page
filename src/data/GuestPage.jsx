@@ -88,10 +88,10 @@ export const bankAccounts = [
     cuentas: [
       {
         id: 1,
-        nombre: 'Klar',
+        nombre: 'Bannorte',
         tipo: 'CLABE',
-        numero: '661610008478959734',
-        nombrePersona: 'Pablo Madrigal',
+        numero: '072580012327581492',
+        nombrePersona: 'Paloma Ruiz',
       },
     ],
   },
@@ -137,7 +137,7 @@ export const guestInformation = [
   {
     id: 'BZTCRD',
     message:
-      'Amiga, te queremos mucho, gracias por tu amistad siempre tan generosa y honesta, nos hace muy feliz tenerte con nosotros.',
+      'Sayda, te queremos mucho, gracias por tu amistad siempre tan generosa y honesta, nos hace muy feliz tenerte con nosotros.',
     numberGuests: 2,
   },
   {
@@ -948,6 +948,48 @@ export const guestInformation = [
     id: 'SFFRMK',
     message:
       'Lore, gracias por cada consejo que me haz brindado y por ser parte de mi vida, tu amistad es muy valiosa para nosotros y nos hace muy felices que seas parte de este momento.',
+    numberGuests: 1,
+  },
+  {
+    id: 'YOEVMG',
+    message:
+      'Mae Santi, primero que todo quería darte gracias por tu gran amistad, por tantos años que hemos tenido desde que estabamos en Shalom intentando hacer una maquina de algodon de azucar manualmente y sirviendo juntos por tantos años y ahora en esta nueva etapa de vida, gracias por tu gran hermandad y me alegra muchisimo que vayas a poder ser parte del inicio de esta gran aventura',
+    numberGuests: 2,
+  },
+  {
+    id: 'FFVYOR',
+    message:
+      'Mae Chais, quería darte gracias por tantos años de amistad, hemos vivido un chorro de cosas juntos, como estar con los Siervos y vivir este llamado comunitario, quiero que sepas que te quiero muchisimo y es muy importante para mi el poder contar con vos en este día tan especial para nosotros dos, te queremos muchisimo',
+    numberGuests: 1,
+  },
+  {
+    id: 'IOUVPG',
+    message:
+      'Mae Ale, queria darle gracias a Dios por tu vida, soy sumamente afortunado de poder llamarte mi amigo y por lo tanto estoy super feliz y agradecido con que podas acompañarnos en este día tan importante para nosotros. Te queremos mucho',
+    numberGuests: 1,
+  },
+  {
+    id: 'KTYQZS',
+    message:
+      'Silvi queria aprovechar para darte las gracias por tantos años de amistad (atte Pablo), realmente sos super especial para nosotros como pareja, la manera en que acogiste a Paloma desde la primera vez que fue a Costa Rica y todo lo que nos hemos acercado este tiempo, por eso es sumamente especial que puedas acompañarnos en este inicio de nuestro matrimonio',
+    numberGuests: 2,
+  },
+  {
+    id: 'FPXFHA',
+    message:
+      'Memish!! Primero que todo quería darle gracias a Dios por tu vida y por haberte puesto en la mía, es dificil poner tantos años de amistad en estas pequeñas lineas pero realmente te agradezco por estos últimos años en que hemos compartido esta aventura de una relación (y ahora boda) regio-tica. Por eso es sumamente especial para nosotros poder contar con vos y con Richi en este día tan importante',
+    numberGuests: 2,
+  },
+  {
+    id: 'MSLTGW',
+    message:
+      'Hermanitaaaaaaa le doy demasiadas gracias a Dios por tu vida y por tantísimos años de aventuras juntos, desde estar juntos en los rallys como shalomitas, escaparnos de clases en la U, que me sacarás una cordal (regalando la otra)y ahora estoy muy feliz de que podamos empezar esta nueva etapa de casados tan cercanos de tiempo y nos encantaría que puedan acompañarnos al inicio de esta gran aventura ',
+    numberGuests: 2,
+  },
+  {
+    id: 'GDYNHD',
+    message:
+      'Mae Paolo, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
     numberGuests: 1,
   },
 ]

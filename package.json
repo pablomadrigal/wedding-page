@@ -2,7 +2,7 @@
   "name": "paloma-pablo-wedding",
   "version": "5.0.0",
   "private": true,
-  "homepage": "https://devtest.pabloypaloma.site",
+  "homepage": "https://pabloypaloma.site",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
