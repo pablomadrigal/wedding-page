@@ -90,8 +90,9 @@ const Guest = () => {
             {guestInfo ? (
               <>
                 <Typography align="justify">
-                  Con alegría te queremos invitar a nuestra boda que se
-                  celebrará el día{' '}
+                  De vez en cuando, la vida nos regala un cuento de hadas, es
+                  por eso que con alegría te invitamos a el comienzo de nuestro
+                  felices para siempre, nuestra boda, que se celebrará el día{' '}
                   <span style={{ fontWeight: 'bold' }}>
                     viernes 20 de octubre del 2023
                   </span>
