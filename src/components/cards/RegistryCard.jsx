@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import Box from '@mui/material/Box'
 import { Typography } from '@mui/material'
 import { bankAccounts, registryList } from '../../data/GuestPage'
@@ -10,8 +9,8 @@ const RegistryCard = () => {
         Obsequio
       </Typography>
       <Typography textAlign="justify">
-        Si desan regalarnos algun detalle, aquí les dejamos las mejores opciones
-        para nosotros:
+        Su presencia es lo mas importante para nosotros, pero si desean
+        obsequiarnos algo, aquí les dejamos las mejores opciones para nosotros:
       </Typography>
       <br />
       {bankAccounts.map((account) => (
@@ -31,15 +30,14 @@ const RegistryCard = () => {
       <br />
       <Box sx={{ textAlign: 'center' }}>
         <Typography variant="h5">{registryList.name}</Typography>
+        <Typography>(Haz click en el logo)</Typography>
         {registryList.logo}
       </Box>
     </>
   )
 }
 
-RegistryCard.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+RegistryCard.propTypes = {}
 
 RegistryCard.defaultProps = {}
 
