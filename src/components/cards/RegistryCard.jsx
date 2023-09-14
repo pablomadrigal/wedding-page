@@ -1,5 +1,5 @@
 import Box from '@mui/material/Box'
-import { Typography } from '@mui/material'
+import { Grid, Typography } from '@mui/material'
 import { bankAccounts, registryList } from '../../data/GuestPage'
 
 const RegistryCard = () => {
@@ -28,11 +28,15 @@ const RegistryCard = () => {
         Mesa de regalos
       </Typography>
       <br />
-      <Box sx={{ textAlign: 'center' }}>
-        <Typography variant="h5">{registryList.name}</Typography>
-        <Typography>(Haz click en el logo)</Typography>
-        {registryList.logo}
-      </Box>
+      <Grid container sx={{ textAlign: 'center' }}>
+        {registryList.map((registry) => (
+          <Grid item xs={12} sm={6} md={6} lg={6} key={registry.name}>
+            <Typography variant="h5">{registry.name}</Typography>
+            <Typography>(Haz click en el logo)</Typography>
+            {registry.logo}
+          </Grid>
+        ))}
+      </Grid>
     </>
   )
 }

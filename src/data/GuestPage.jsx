@@ -3,6 +3,7 @@ import { ReactComponent as ReceptionIconSvg } from '../assents/icons/ReceptionIc
 import { ReactComponent as BusIconSvg } from '../assents/icons/BusIcon.svg'
 
 import amazonLogo from '../assents/logos/Amazon.png'
+import disneyLogo from '../assents/logos/Disney.png'
 
 export const scheduleInformation = [
   {
@@ -97,23 +98,42 @@ export const bankAccounts = [
   },
 ]
 
-export const registryList = {
-  name: 'Amazon',
-  logo: (
-    <a
-      href="https://www.amazon.com.mx/wedding/share/Pablo-Paloma"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src={amazonLogo}
-        alt="Amazon"
-        style={{ width: '100%', height: 'auto', maxWidth: '150px' }}
-      />
-    </a>
-  ),
-  url: 'https://www.amazon.com.mx/wedding/share/Pablo-Paloma',
-}
+export const registryList = [
+  {
+    name: 'Amazon',
+    logo: (
+      <a
+        href="https://www.amazon.com.mx/wedding/share/Pablo-Paloma"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={amazonLogo}
+          alt="Amazon"
+          style={{ width: '100%', height: 'auto', maxWidth: '150px' }}
+        />
+      </a>
+    ),
+    url: 'https://www.amazon.com.mx/wedding/share/Pablo-Paloma',
+  },
+  {
+    name: 'Disney',
+    logo: (
+      <a
+        href="https://disney.honeymoonwishes.com/Honeymoon-Registry-447590-Walt-Disney-World-Resort-Pablo-Madrigal-Paloma-Ruiz.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={disneyLogo}
+          alt="Disney"
+          style={{ width: '100%', height: 'auto', maxWidth: '150px' }}
+        />
+      </a>
+    ),
+    url: 'https://disney.honeymoonwishes.com/Honeymoon-Registry-447590-Walt-Disney-World-Resort-Pablo-Madrigal-Paloma-Ruiz.html',
+  },
+]
 
 export const guestInformation = [
   {
@@ -1327,5 +1347,117 @@ export const guestInformation = [
       'Ia !!! Le doy muchisimas gracias a Dios por tu vida y tu amistad todos estos años, por que no haz sido nada mas "la hermana de mi mejor amigo" sino que sos una amiga para mi y ahora tambien haz podido serlo para Paloma. Por eso es muy importante para nosotros poder contar contigo este día tan especial',
     numberGuests: 1,
     name: 'Estefanía Regidor',
+  },
+  {
+    id: 'UCRCUG',
+    message:
+      'Querida Tatiana significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Tatiana',
+  },
+  {
+    id: 'ZIYSYD',
+    message:
+      'Majo !!!! Paloma y yo estamos super agradecidos con vos por todo lo que haz hecho por nosotros :) no se que habríamos hecho sin tu ayuda para la civil, pero también quería darte gracias por todos estos años de amistad, por eso nos alegra mucho que puedas ser parte de este inicio de una nueva aventura',
+    numberGuests: 1,
+    name: 'Maria  Bravo',
+  },
+  {
+    id: 'TYRIPI',
+    message:
+      'Querida Tia Ludy significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Tia Ludy',
+  },
+  {
+    id: 'LDBNYQ',
+    message:
+      'Querida Esme significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Esme',
+  },
+  {
+    id: 'TEZQVV',
+    message:
+      'Queridos Sra Claudia Y Sr. Mario significa mucho para nosotros que esten presentes en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Sra Claudia Y Sr. Mario',
+  },
+  {
+    id: 'GEJVAH',
+    message:
+      'Querida Sra Lupita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Sra Lupita',
+  },
+  {
+    id: 'TIIMWP',
+    message:
+      'Querida Claudia significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Claudia',
+  },
+  {
+    id: 'EDYKQE',
+    message:
+      'Querida Luisa significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Luisa',
+  },
+  {
+    id: 'NNZECO',
+    message:
+      'Querida Marisol significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Marisol',
+  },
+  {
+    id: 'NMEUOW',
+    message:
+      'Querida Almita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Almita',
+  },
+  {
+    id: 'NUJOAZ',
+    message:
+      'Querida Nelly significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Nelly',
+  },
+  {
+    id: 'ZNCBOB',
+    message:
+      'Querida Mel significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Mel',
+  },
+  {
+    id: 'CJLUZG',
+    message:
+      'Querida Tia Carmela significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Tia Carmela',
+  },
+  {
+    id: 'QPSGWN',
+    message:
+      'Querida Fabs significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Fabs',
+  },
+  {
+    id: 'QJWZAO',
+    message:
+      'Mae Richi, estoy muy agradecido con el Señor por tu vida, desde que te conocí en la Brecha y nos toco vivir juntos en casa de hermanos hasta estar aventurandonos juntos en esta aventura de una relacion regio/tica. Sos un increible hombre, un gran cristiano y un increible amigo que tiene un corazón que arde por el Señor. Por eso es muy importante para mi poder compartir contigo de este día tan especial en mi vida',
+    numberGuests: 1,
+    name: 'Ricardo Arsiniega',
+  },
+  {
+    id: 'WFMKPJ',
+    message:
+      'Diego, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
+    numberGuests: 1,
+    name: 'Diego  Sandoval',
   },
 ]
