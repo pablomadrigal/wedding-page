@@ -1460,4 +1460,11 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Diego  Sandoval',
   },
+  {
+    id: 'EQBGSY',
+    message:
+      'Queridos Tío Lucio y Tía María del Rosario, primero que todo queríamos darles gracias por todo su cariño, consejos y por ser un matrimonio presente para nosotros, por eso nos alegra mucho compartir este día tan especial con ustedes. Los queremos mucho',
+    numberGuests: 3,
+    name: 'Tios Collins',
+  },
 ]
