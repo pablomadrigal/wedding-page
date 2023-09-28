@@ -137,6 +137,128 @@ export const registryList = [
 
 export const guestInformation = [
   {
+    id: 'XAHJSG',
+    message:
+      'Querida Tia Marcela significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Tia Marcela',
+  },
+  {
+    id: 'RTECHM',
+    message:
+      'Beto y Sara, en este dia tan especial para nosotros no puedo imaginarme no tenerlos cerca, gracias por ser como hermanos para mi y estar para mi familia en todo momento.',
+    numberGuests: 3,
+    name: 'Roberto (primo) Alvarado',
+  },
+  {
+    id: 'OIONWG',
+    message:
+      'Tia Pera, gracias por amarme como a una hija, la amo y le agradezco a Dios tenerla en mi vida y sobretodo poder compartir estos momentos con usted.',
+    numberGuests: 1,
+    name: 'Esperanza  Alvarado',
+  },
+  {
+    id: 'ETUFXV',
+    message:
+      'Eve, me alegra mucho poder llamarte mi prima, pones un sabor especial en la familia y Adrián también sos una adquicisión :O muy valiosa jeje enserio nos sentimos muy afortunados de ser familia de ustedes y estamos muy muy felices de poder compartir el inicio de esta gran aventura',
+    numberGuests: 2,
+    name: 'Evelyn  Gomez',
+  },
+  {
+    id: 'DGXNCI',
+    message:
+      'Verito querida, primero quería decirte que te quiero muchísimo y que estoy demasiado feliz con el Señor por haberte puesto en mi vida. Cada aventura que hemos tenido desde muy niños hasta ya viajes de adultos y me alegra muchísimo que vayas a ser parte de esta nueva aventura que estamos por empezar Paloma y yo ',
+    numberGuests: 1,
+    name: 'Veronica Gomez',
+  },
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Josué Madrigal' },
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Marco Madrigal' },
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Marvin Madrigal' },
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Melissa Madrigal' },
+  {
+    id: 'VYNWGY',
+    message:
+      'Tía querida, estoy demasiado agradecido con Dios de poder tenerte como tía, a pesar de la distancia y estar en países diferentes sos increíble y haz roto las barreras y la distancia para mantenerte parte de nuestras vidas y ahora que he podido viajar allá y verte varias veces, por eso estoy muy feliz que puedas acompañarnos en este día tan importante ',
+    numberGuests: 1,
+    name: 'Rocío Madrigal',
+  },
+
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Milagro  Quesada' },
+  {
+    id: 'BUAKSB',
+    message:
+      'Tía querida de mi corazón, estoy muy muy agradecido con Dios por tenerte como mi tía, enserio muchísimas gracias por todo lo que haz hecho por nosotros desde que empezamos a salir, desde hospedar a Paloma y sus amigas, el ser tan presente en nuestra relación, por eso estamos super alegres de poder compartir con vos de este día tan especial ',
+    numberGuests: 1,
+    name: 'Evelyn  Quesada',
+  },
+  {
+    id: 'YABSLF',
+    message:
+      'Tío Jose y Tía Jey estoy super agradecido con Dios por poder ser parte de la misma familia, siempre han sido para mi un verdadero ejemplo de matrimonio cristiano y de que como seguidores de Cristo también se puede aspirar por una excelencia en la parte profesional. Y ahora con el curso prematrimonial aún mas hemos podido ver la calidad de personas y de pareja que son. Enserio nos alegra mucho poder contar con ustedes en esta nueva etapa de la vida',
+    numberGuests: 1,
+    name: 'Jose Julio  Quesada',
+  },
+  {
+    id: 'MWLSFL',
+    message:
+      'Katy, Hassan, Mila y Manara, los quiero mucho, gracias por siempre estar para mi cuando lo he necesitado, me hace muy feliz compartir este momento con ustedes. ',
+    numberGuests: 2,
+    name: 'Katia  Rangel',
+  },
+  {
+    id: 'MQQRHT',
+    message:
+      'Rafita querido, estoy super agradecido con Dios por tu vida y me cuesta ponerlo todo en un espacio tan pequeño, pero al menos quiero que sepas que te quiero muchisimo, tenemos mas de 28 de caminar (o gatear) juntos y me va a costar mucho estos primeros años en que no vamos a poder compartir tanto, ya que incluso cuando estuve con los siervos estabas vos en MTY jajajaja pero enserio soy super super afortunado de poder tenerte en mi vida y de que vayamos a poder compartir juntos este día tan especial para mi.',
+    numberGuests: 1,
+    name: 'Rafael Regidor',
+  },
+  {
+    id: 'BQZDOD',
+    message:
+      'Tia Cecy, le agradezco todo su amor y atenciones que siempre tiene conmigo, la quiero mucho y me hace muy feliz que sea parte de este momento de mi vida. ',
+    numberGuests: 1,
+    name: 'Cecilia  Ruiz',
+  },
+
+  {
+    id: 'SPVYCE',
+    message:
+      'Aida, gracias por quererme tanto y siempre consentirme con tus detalles en las diferentes etapas de mi vida, te quiero mucho.',
+    numberGuests: 1,
+    name: 'Aida  Castillo',
+  },
+  {
+    id: 'EEPKPA',
+    message:
+      'Tio Raúl, gracias por quererme tanto, me hace muy feliz compartir con usted este día.',
+    numberGuests: 1,
+    name: 'Raúl  Alvarado',
+  },
+
+  {
+    id: 'ALUHRE',
+    message:
+      'Monica quería darle gracias a Dios por tu vida y por el poder tenerte como prima, te quiero mucho y me hace sumamente feliz poder compartir contigo este día tan especial ',
+    numberGuests: 1,
+    name: 'Monica Cortés',
+  },
+
+  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Paloma Ruiz' },
+  {
+    id: 'TIIMWP',
+    message:
+      'Querida Sra Claudia significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Sra Claudia',
+  },
+  {
+    id: 'GEJVAH',
+    message:
+      'Querida Sra Lupita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Sra Lupita',
+  },
+  {
     id: 'PZDOYD',
     message:
       'Adrian, te queremos mucho, tenerte en nuestra vida nos alegra el corazon, gracias por formar parte de este momento.',
@@ -158,6 +280,13 @@ export const guestInformation = [
     name: 'Tio Carlos',
   },
   {
+    id: 'XJDLIT',
+    message:
+      'Querida Clau significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Clau',
+  },
+  {
     id: 'OOXMIN',
     message:
       'Tio Ramiro y Tia Lidia, gracias por siempre ser atentos conmigo, me hace muy feliz que puedan acompañarnos en este dia.',
@@ -172,32 +301,11 @@ export const guestInformation = [
     name: 'Rogelio Alvarado',
   },
   {
-    id: 'RTECHM',
-    message:
-      'Beto y Sara, en este dia tan especial para nosotros no puedo imaginarme no tenerlos cerca, gracias por ser como hermanos para mi y estar para mi familia en todo momento.',
-    numberGuests: 4,
-    name: 'Roberto (primo) Alvarado',
-  },
-  {
     id: 'JTEBWT',
     message:
       'Gaby, gracias por ser como un hermano para mi, gracias por todo el amor que siempre nos demuestras, me hace muy feliz tenerte en este dia tan especial.',
     numberGuests: 1,
     name: 'Gabriel Alvarado',
-  },
-  {
-    id: 'OIONWG',
-    message:
-      'Tia Pera, gracias por amarme como a una hija, la amo y le agradezco a Dios tenerla en mi vida y sobretodo poder compartir estos momentos con usted.',
-    numberGuests: 1,
-    name: 'Esperanza  Alvarado',
-  },
-  {
-    id: 'EEPKPA',
-    message:
-      'Tio Raúl, gracias por quererme tanto, me hace muy feliz compartir con usted este día.',
-    numberGuests: 1,
-    name: 'Raúl  Alvarado',
   },
   {
     id: 'ZBMIQT',
@@ -234,6 +342,7 @@ export const guestInformation = [
     numberGuests: 2,
     name: 'Horacio Anleu',
   },
+
   {
     id: 'FKIXZV',
     message:
@@ -249,11 +358,32 @@ export const guestInformation = [
     name: 'Sarai Anleu',
   },
   {
+    id: 'QJWZAO',
+    message:
+      'Mae Richi, estoy muy agradecido con el Señor por tu vida, desde que te conocí en la Brecha y nos toco vivir juntos en casa de hermanos hasta estar aventurandonos juntos en esta aventura de una relacion regio/tica. Sos un increible hombre, un gran cristiano y un increible amigo que tiene un corazón que arde por el Señor. Por eso es muy importante para mi poder compartir contigo de este día tan especial en mi vida',
+    numberGuests: 1,
+    name: 'Ricardo Arsiniega',
+  },
+  {
+    id: 'UCRCUG',
+    message:
+      'Querida Tatiana significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Tatiana',
+  },
+  {
     id: 'PMFTWZ',
     message:
       'Mae Michell estoy demasiado agradecido con Dios por tu vida y por tu gran hermandad y sobretodo en esta nueva etapa que empecé, desde que conociste a Paloma la aceptaste y la hiciste sentir muy querida. Por eso nos alegra muchisimo que podas acompañarnos en este día tan importante para nosotros',
     numberGuests: 1,
     name: 'Michell',
+  },
+  {
+    id: 'TSOGJL',
+    message:
+      'Aurorita, es difícil poner en un mensaje tan corto más de 15 años de amistad, pero quería agradecerte por la increíble amiga y hermana que haz sido todo este tiempo, por todas las aventuras y tonteras que hemos hecho jajajaja estamos muy felices de poder compartir con vos este inicio de una nueva etapa de vida ',
+    numberGuests: 2,
+    name: 'Au',
   },
   {
     id: 'CMDODR',
@@ -263,25 +393,11 @@ export const guestInformation = [
     name: 'Diego',
   },
   {
-    id: 'BEMSAX',
-    message:
-      'Fer Ayala queria darte gracias por tu amistad y por que he podido ver a Dios actuar en mi vida a traves tuyo y no solo en el tiempo que estuve viviendo allá con los siervos sino de una manera muy personal en esta nueva etapa de mi vida, ya no solo por que tenes que, sino por que hay una hermandad real. Por eso estamos muy felices de poder contar con vos en este día tan importante para nuestra vida.',
-    numberGuests: 1,
-    name: 'Fernando Ayala',
-  },
-  {
     id: 'BZTCRD',
     message:
       'Sayda, te queremos mucho, gracias por tu amistad siempre tan generosa y honesta, nos hace muy feliz tenerte con nosotros.',
     numberGuests: 2,
     name: 'Sayda  Benitez',
-  },
-  {
-    id: 'IIWYHG',
-    message:
-      'Tia Carmen, la quiero mucho, gracias por su calido amor y gracias por alegrarse con nosotros en este día.',
-    numberGuests: 2,
-    name: 'Carmen  Bishop',
   },
   {
     id: 'IEBGLT',
@@ -291,10 +407,17 @@ export const guestInformation = [
     name: 'Vanessa  Bolaños',
   },
   {
+    id: 'DLZLUG',
+    message:
+      'Querida Yana significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Yana',
+  },
+  {
     id: 'WFFZDE',
     message:
       'Tia Tita y Tio German, gracias por siempre estar para mi familia, gracias por quererme tanto y por su generoso amor, me hace muy feliz compartir esta alegría con usted.',
-    numberGuests: 3,
+    numberGuests: 2,
     name: 'Leticia Bolaños',
   },
   {
@@ -305,25 +428,11 @@ export const guestInformation = [
     name: 'Tia Connie y Tio Ricardo',
   },
   {
-    id: 'PCRPLY',
+    id: 'ZIYSYD',
     message:
-      'Cesar, tus pasos de baile no podían faltar en la pista, tu amistad me alegra el corazón y me hace muy feliz que seas parte de nuestra vida.',
+      'Majo !!!! Paloma y yo estamos super agradecidos con vos por todo lo que haz hecho por nosotros :) no se que habríamos hecho sin tu ayuda para la civil, pero también quería darte gracias por todos estos años de amistad, por eso nos alegra mucho que puedas ser parte de este inicio de una nueva aventura',
     numberGuests: 1,
-    name: 'Cesar  Calzada',
-  },
-  {
-    id: 'ILMFXG',
-    message:
-      'Hugo, gracias por tu amistad y por formar parte de este momento tan increible para nosotros, queremos verte gozandola en la pista.',
-    numberGuests: 1,
-    name: 'Hugo  Canizales',
-  },
-  {
-    id: 'YJWVSG',
-    message:
-      'Omar, gracias por tantos años de amistad sincera y por las pláticas profundas en el carro, nos alegra mucho que seas parte de nuestra vida.',
-    numberGuests: 1,
-    name: 'Omar  Castañeda',
+    name: 'Maria  Bravo',
   },
   {
     id: 'NLKRFB',
@@ -333,11 +442,18 @@ export const guestInformation = [
     name: 'Luis Felipe Brenes',
   },
   {
-    id: 'SPVYCE',
+    id: 'YSURTN',
     message:
-      'Aida, gracias por quererme tanto y siempre consentirme con tus detalles en las diferentes etapas de mi vida, te quiero mucho.',
+      'Rebequita !!! Muchisimas gracias por todos estos años de amistad y por ser esa amiga con la que puedo hablar cosas profundas cuando sea jajajaja estoy muy agradecido con Dios por tu vida y muy feliz de poder compartir contigo de este día tan especial',
     numberGuests: 1,
-    name: 'Aida  Castillo',
+    name: 'Rebeca Calvo',
+  },
+  {
+    id: 'PCRPLY',
+    message:
+      'Cesar, tus pasos de baile no podían faltar en la pista, tu amistad me alegra el corazón y me hace muy feliz que seas parte de nuestra vida.',
+    numberGuests: 1,
+    name: 'Cesar  Calzada',
   },
   {
     id: 'WTUFBW',
@@ -345,6 +461,42 @@ export const guestInformation = [
       'Guille, estoy muy agradecido con Dios por tu vida, haz sido todo un hermanod y un apoyo desde que viniste a Costa Rica y nos toco servir juntos hace varios años, el poder compartir tantas aventuras cuando estuve allá y el hecho de que estuvieras presente desde antes de que nosotros mismo supieramos que nos gustabamos jeje enserio eres super especial para nosotros dos y por eso nos alegra que podamos compartir este día tan importante para nosotros',
     numberGuests: 1,
     name: 'Guillermo Camilo',
+  },
+  {
+    id: 'JEYWGX',
+    message:
+      'Irenita querida, gracias por tu amistad, nos alegra mucho poder tenerte en este momento tan especial para nosotros ',
+    numberGuests: 1,
+    name: 'Irene Campos',
+  },
+
+  {
+    id: 'ILMFXG',
+    message:
+      'Hugo, gracias por tu amistad y por formar parte de este momento tan increible para nosotros, queremos verte gozandola en la pista.',
+    numberGuests: 1,
+    name: 'Hugo  Canizales',
+  },
+  {
+    id: 'LDBNYQ',
+    message:
+      'Querida Esme significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Esme',
+  },
+  {
+    id: 'YJWVSG',
+    message:
+      'Omar, gracias por tantos años de amistad sincera y por las pláticas profundas en el carro, nos alegra mucho que seas parte de nuestra vida.',
+    numberGuests: 1,
+    name: 'Omar  Castañeda',
+  },
+  {
+    id: 'HRLYSQ',
+    message:
+      'Annie queríamos darte gracias por tu gran amistad, desde que Paloma viajo por primera vez a CR haz sido la mejor. Y estamos demasiado alegres de que puedas ser parte de este inicio de una gran aventura :)',
+    numberGuests: 1,
+    name: 'Annie ',
   },
   {
     id: 'PUQHYX',
@@ -367,6 +519,7 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Sra Irmita',
   },
+
   {
     id: 'NVONUK',
     message:
@@ -389,6 +542,13 @@ export const guestInformation = [
     name: 'Montse  Collins',
   },
   {
+    id: 'EQBGSY',
+    message:
+      'Queridos Tío Lucio y Tía María del Rosario, primero que todo queríamos darles gracias por todo su cariño, consejos y por ser un matrimonio presente para nosotros, por eso nos alegra mucho compartir este día tan especial con ustedes. Los queremos mucho',
+    numberGuests: 4,
+    name: 'Tios Collins',
+  },
+  {
     id: 'PSYNDH',
     message:
       'Diana, aprecio mucho tu amistad, durante nuestro tiempo trabajando juntas fuiste un lugar seguro para mi, gracias por tu amistad desinteresada y tus consejos, te quiero mucho. ',
@@ -396,18 +556,18 @@ export const guestInformation = [
     name: 'Diana  Cordero',
   },
   {
-    id: 'TIUYTG',
-    message:
-      'Tita maruja, te quiero muchisimo, gracias por todo el amor que me haz dado por tantos años y por todos los consejos en este ultimo tiempo de noviazgo, estoy muy feliz de poder compartir contigo de este día tan especial',
-    numberGuests: 1,
-    name: 'Maruja Chavez',
-  },
-  {
     id: 'CSSQDJ',
     message:
       'Andy, tu vida ha sido de bendición para la nuestra, gracias por todo lo que haz hecho por nosotros, te debemos muchas y nos hace muy felices gozar este día contigo, te queremos mucho. ',
     numberGuests: 1,
     name: 'Andres Correa',
+  },
+  {
+    id: 'XDTXWI',
+    message:
+      'Valkis !! Le doy demasiadas gracias a Dios por tu vida y por tantos años de amistad que hemos tenido, por todas las aventuras y enredos en los que nos hemos metido jeje y estoy súper feliz de poder contar con vos en el inicio de esta nueva aventura :D',
+    numberGuests: 1,
+    name: 'Valentina García',
   },
   {
     id: 'CXYDDH',
@@ -422,6 +582,14 @@ export const guestInformation = [
       'Marianita, que alegría es que puedas compartir con nosotros este momento, te quiero.',
     numberGuests: 2,
     name: 'Mariana  Cruz',
+  },
+
+  {
+    id: 'IZDQXE',
+    message:
+      'Mae Javi quien se hubiera imaginado hace 11 años que estábamos en Managua (escapandonos a Granada) esperando a un retiro de los Siervos de la Palabra que hoy ibas a estar casado y yo a punto de jajajaja gracias por todos estos años de amistad y de aventuras locas que hemos tenido. Nos emociona muchísimo que seas parte de el inicio de esta nueva aventura 🤩',
+    numberGuests: 2,
+    name: 'Javi',
   },
   {
     id: 'DGSQMP',
@@ -452,20 +620,6 @@ export const guestInformation = [
     name: 'Paola  Diez',
   },
   {
-    id: 'FGRHPQ',
-    message:
-      'Prima! te quiero mucho, sos sumamente especial y no sabes lo feliz que me hace tenerte conmigo este día.',
-    numberGuests: 2,
-    name: 'Dayanna Cortés',
-  },
-  {
-    id: 'ALUHRE',
-    message:
-      'Monica quería darle gracias a Dios por tu vida y por el poder tenerte como prima, te quiero mucho y me hace sumamente feliz poder compartir contigo este día tan especial ',
-    numberGuests: 2,
-    name: 'Monica Cortés',
-  },
-  {
     id: 'FFVYOR',
     message:
       'Mae Chais, quería darte gracias por tantos años de amistad, hemos vivido un chorro de cosas juntos, como estar con los Siervos y vivir este llamado comunitario, quiero que sepas que te quiero muchisimo y es muy importante para mi el poder contar con vos en este día tan especial para nosotros dos, te queremos muchisimo',
@@ -479,12 +633,34 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Michelle Duran',
   },
+
   {
     id: 'HYFJZX',
     message:
       'Yuli, gracias por quererme tanto y por siempre compartirme la cuenta de spotify haha, me hace muy feliz que puedas compartir con nosotros este día, te quiero.',
     numberGuests: 1,
     name: 'Yuliana Esparza',
+  },
+  {
+    id: 'IOUVPG',
+    message:
+      'Mae Ale, queria darle gracias a Dios por tu vida, soy sumamente afortunado de poder llamarte mi amigo y por lo tanto estoy super feliz y agradecido con que podas acompañarnos en este día tan importante para nosotros. Te queremos mucho',
+    numberGuests: 1,
+    name: 'Ale',
+  },
+  {
+    id: 'BRVYRT',
+    message:
+      'Janeth y Roy, gracias por formar parte de este momento tan especial en mi vida.',
+    numberGuests: 2,
+    name: 'Janeth  González',
+  },
+  {
+    id: 'TEZQVV',
+    message:
+      'Queridos Sra Claudia Y Sr. Mario significa mucho para nosotros que esten presentes en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Sra Claudia Y Sr. Mario',
   },
   {
     id: 'NJDPQN',
@@ -508,11 +684,18 @@ export const guestInformation = [
     name: 'Sofia Gabuardi',
   },
   {
-    id: 'NDWGRJ',
+    id: 'KLOHAC',
     message:
-      'Querida Titi significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+      'Mae Gadea, queria darle gracias a Dios por tu vida y por tu amistad, desde que estabamos en Shalom hasta el llegar a servir juntos en CEM, han sido muchos y muy buenos años de hermandad y de poder ver como Dios ha estado actuando en nuestras vidas. Ahora estoy muy alegre de poder compartir contigo del inicio de esta nueva aventura que estamos teniendo Paloma y yo',
+    numberGuests: 2,
+    name: 'Jose Rodolfo Gadea',
+  },
+  {
+    id: 'ASUYJS',
+    message:
+      'Mi Bro (JDG) quería agradecerte por tu hermandad todos estos años la verdad para mí ha sido todo un honor poder compartir en grupo con vos y ahora que tengamos esta aventura de relaciones a distancia regioticas. Estamos muy felices Paloma y yo de poder contar con Tigo en el inicio de esta Gran Aventura.',
     numberGuests: 1,
-    name: 'Titi',
+    name: 'Jose Daniel Gadea',
   },
   {
     id: 'SCIOAR',
@@ -520,6 +703,13 @@ export const guestInformation = [
       'Eymi, siempre seras mi mejor amiga, recuerda que aunque este casada tu siempre serás mi relación más larga, te amo.',
     numberGuests: 2,
     name: 'Eymi García',
+  },
+  {
+    id: 'NDWGRJ',
+    message:
+      'Querida Titi significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Titi',
   },
   {
     id: 'JFAMDZ',
@@ -534,27 +724,6 @@ export const guestInformation = [
       'Monica, Arturo y Mariana, gracias por formar parte de este momento tan especial en mi vida.',
     numberGuests: 3,
     name: 'Mónica  Garza',
-  },
-  {
-    id: 'JNQCYT',
-    message:
-      'Fufo, queremos verte gozandola en la pista, gracias por tu amistad, nos hace muy felices tenerte con nosotros en este día.',
-    numberGuests: 1,
-    name: 'Arnulfo Garza',
-  },
-  {
-    id: 'MLKMUP',
-    message:
-      'Jess y Mario :D los quiero montones, ambos han sido sumamente especiales en mi vida, desde que Jess y yo estabamos en Shalom, luego pasar a CEM, que Mario llegara y yo lo mordiera (por error) en una de sus primeras reuniones y ahora uds 2 como matrimonio son top y todo un ejemplo a seguir. Gracias también por que han sabido abrir su hogar a Paloma y hacerla sentir parte de Costa Rica. Por eso estamos muy felices de poder compartir con ustedes este día tan importante para nosotros',
-    numberGuests: 2,
-    name: 'Jessi (Y Mario)',
-  },
-  {
-    id: 'CUHBUA',
-    message:
-      'Eso Azoteeee jajajaja no ya poniendonos serios, Mau queria darte gracias por tu amistado todos estos años, desde que eras un niño que venia a quedarse a dormir a actividades de torre en la casa, hasta ahora ser compañeros de grupo, tu vida es una verdadera bendición. Por eso estamos muy felices de poder compartir contigo el inicio de nuestra nueva familia',
-    numberGuests: 1,
-    name: 'Mauricio Fonseca',
   },
   {
     id: 'DHIHBD',
@@ -578,11 +747,32 @@ export const guestInformation = [
     name: 'Tania  Garza',
   },
   {
-    id: 'KLOHAC',
+    id: 'JNQCYT',
     message:
-      'Mae Gadea, queria darle gracias a Dios por tu vida y por tu amistad, desde que estabamos en Shalom hasta el llegar a servir juntos en CEM, han sido muchos y muy buenos años de hermandad y de poder ver como Dios ha estado actuando en nuestras vidas. Ahora estoy muy alegre de poder compartir contigo del inicio de esta nueva aventura que estamos teniendo Paloma y yo',
+      'Fufo, queremos verte gozandola en la pista, gracias por tu amistad, nos hace muy felices tenerte con nosotros en este día.',
+    numberGuests: 1,
+    name: 'Arnulfo Garza',
+  },
+  {
+    id: 'NACPGJ',
+    message:
+      'Mae Jorge, es muy pequeño este espacio para poder poner lo mucho que te quiero, aprecio con demasiado cariño los recuerdos de cuando eramos pequeños e ibamos a jugar a tu casa, el irnos al polideportivo o meternos en el cerro y que nos enseñaras todas tus habilidades de Scout jeje y me dolió mucho cuando te fuiste a USA por que sentí que habia perdido un muy buen amigo, pero estos últimos años en que hemos podido vernos más han sido muy reconformantes. Por eso estoy muy feliz de poder contar con vos en este día tan importante para mi vida y que ahora que vamos a estar "mas cerca" podamos vernos más seguido',
+    numberGuests: 1,
+    name: 'Jorge Ignacio Gongora',
+  },
+  {
+    id: 'ZGFAVQ',
+    message:
+      'Anita mi hermanita quería aprovechar esta oportunidad para agradecerte por tu amistad todo este tiempo y más recientemente hemos podido compartir Cris y vos con Paloma y conmigo. Para nosotros es un gusto increíble poder contar con ustedes en este día tan especial y nos va a ser muy feliz que podamos seguir poniendo recuerdos conjuntos con este momento tan importante para nosotros',
     numberGuests: 2,
-    name: 'Jose Rodolfo Gadea',
+    name: 'Anita (y cris)',
+  },
+  {
+    id: 'ZNCBOB',
+    message:
+      'Querida Mel significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Mel',
   },
   {
     id: 'EPTEQE',
@@ -648,25 +838,11 @@ export const guestInformation = [
     name: 'Alfredo Linarte',
   },
   {
-    id: 'ETUFXV',
+    id: 'MSLTGW',
     message:
-      'Eve, me alegra mucho poder llamarte mi prima, pones un sabor especial en la familia y Adrián también sos una adquicisión :O muy valiosa jeje enserio nos sentimos muy afortunados de ser familia de ustedes y estamos muy muy felices de poder compartir el inicio de esta gran aventura',
-    numberGuests: 1,
-    name: 'Evelyn  Gomez',
-  },
-  {
-    id: 'ZTJOYB',
-    message:
-      'Josué. gracias por tu amistad y por formar parte de este momento tan especial.',
-    numberGuests: 1,
-    name: 'Josué Lopez',
-  },
-  {
-    id: 'NACPGJ',
-    message:
-      'Mae Jorge, es muy pequeño este espacio para poder poner lo mucho que te quiero, aprecio con demasiado cariño los recuerdos de cuando eramos pequeños e ibamos a jugar a tu casa, el irnos al polideportivo o meternos en el cerro y que nos enseñaras todas tus habilidades de Scout jeje y me dolió mucho cuando te fuiste a USA por que sentí que habia perdido un muy buen amigo, pero estos últimos años en que hemos podido vernos más han sido muy reconformantes. Por eso estoy muy feliz de poder contar con vos en este día tan importante para mi vida y que ahora que vamos a estar "mas cerca" podamos vernos más seguido',
-    numberGuests: 1,
-    name: 'Jorge Ignacio Gongora',
+      'Hermanitaaaaaaa le doy demasiadas gracias a Dios por tu vida y por tantísimos años de aventuras juntos, desde estar juntos en los rallys como shalomitas, escaparnos de clases en la U, que me sacarás una cordal (regalando la otra)y ahora estoy muy feliz de que podamos empezar esta nueva etapa de casados tan cercanos de tiempo y nos encantaría que puedan acompañarnos al inicio de esta gran aventura ',
+    numberGuests: 2,
+    name: 'Rebecca Martinez',
   },
   {
     id: 'MELVQN',
@@ -676,18 +852,18 @@ export const guestInformation = [
     name: 'Janeth  Lopez',
   },
   {
+    id: 'ZTJOYB',
+    message:
+      'Josué. gracias por tu amistad y por formar parte de este momento tan especial.',
+    numberGuests: 1,
+    name: 'Josué Lopez',
+  },
+  {
     id: 'CLMBMG',
     message:
       'Querida Lili significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
     numberGuests: 2,
     name: 'Lili',
-  },
-  {
-    id: 'PAWRMY',
-    message:
-      'Tia Paty, Tio Enrique gracias por formar parte de este momento tan especial en mi vida.',
-    numberGuests: 2,
-    name: 'Tia Paty  Lozano',
   },
   {
     id: 'IIRWML',
@@ -697,11 +873,11 @@ export const guestInformation = [
     name: 'Madaes Lozano',
   },
   {
-    id: 'PRJZOV',
+    id: 'PAWRMY',
     message:
-      'Juan Ca, estoy demasiado agradecido con Dios por tu vida y sobretodo el poder llamarte mi amigo, no solo un líder de Shalom más jeje sino un verdadero amigo, compañero de batalla. Y ahora poder compartir con Sofi y vos el inicio de esta nueva aventura que estoy por empezar.',
-    numberGuests: 1,
-    name: 'Juan Ca',
+      'Tia Paty, Tio Enrique gracias por formar parte de este momento tan especial en mi vida.',
+    numberGuests: 2,
+    name: 'Tia Paty  Lozano',
   },
   {
     id: 'FZBLQT',
@@ -711,137 +887,33 @@ export const guestInformation = [
     name: 'Javier Lugo',
   },
   {
-    id: 'TSOGJL',
+    id: 'TPUSPO',
     message:
-      'Aurorita, es difícil poner en un mensaje tan corto más de 15 años de amistad, pero quería agradecerte por la increíble amiga y hermana que haz sido todo este tiempo, por todas las aventuras y tonteras que hemos hecho jajajaja estamos muy felices de poder compartir con vos este inicio de una nueva etapa de vida ',
+      'Querida Renata significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
     numberGuests: 2,
-    name: 'Au',
+    name: 'Renata',
   },
+
   {
-    id: 'YOEVMG',
+    id: 'PMUPKB',
     message:
-      'Mae Santi, primero que todo quería darte gracias por tu gran amistad, por tantos años que hemos tenido desde que estabamos en Shalom intentando hacer una maquina de algodon de azucar manualmente y sirviendo juntos por tantos años y ahora en esta nueva etapa de vida, gracias por tu gran hermandad y me alegra muchisimo que vayas a poder ser parte del inicio de esta gran aventura',
-    numberGuests: 2,
-    name: 'Santiago  Barrantes',
-  },
-  {
-    id: 'JEYWGX',
-    message:
-      'Irenita querida, gracias por tu amistad, nos alegra mucho poder tenerte en este momento tan especial para nosotros ',
+      'Mae Jeffrey quería aprovechar este momento para agradecerte por tu amistad y compañerismo realmente soy muy afortunado de haber estado con vos en el científico pero también en todas las otras aventuras que tuvimos olimpiadas de robótica aprender a dar clases de programación aprender a lidiar con niños y aunque no hemos estado tan cercanos últimamente desde que yo me fui a México para mí es sumamente especial el poder contar con vos en este día tan importante de mi vida',
     numberGuests: 1,
-    name: 'Irene Campos',
-  },
-  {
-    id: 'HRLYSQ',
-    message:
-      'Annie queríamos darte gracias por tu gran amistad, desde que Paloma viajo por primera vez a CR haz sido la mejor. Y estamos demasiado alegres de que puedas ser parte de este inicio de una gran aventura :)',
-    numberGuests: 1,
-    name: 'Annie ',
-  },
-  {
-    id: 'IZDQXE',
-    message:
-      'Mae Javi quien se hubiera imaginado hace 11 años que estábamos en Managua (escapandonos a Granada) esperando a un retiro de los Siervos de la Palabra que hoy ibas a estar casado y yo a punto de jajajaja gracias por todos estos años de amistad y de aventuras locas que hemos tenido. Nos emociona muchísimo que seas parte de el inicio de esta nueva aventura 🤩',
-    numberGuests: 2,
-    name: 'Javi',
-  },
-  {
-    id: 'IOUVPG',
-    message:
-      'Mae Ale, queria darle gracias a Dios por tu vida, soy sumamente afortunado de poder llamarte mi amigo y por lo tanto estoy super feliz y agradecido con que podas acompañarnos en este día tan importante para nosotros. Te queremos mucho',
-    numberGuests: 1,
-    name: 'Ale',
+    name: 'Jeffry Luque',
   },
   {
     id: 'KQKDFQ',
     message:
-      'Natalia, que gozó es ser tu amiga y que alegría es que ahora puedas compartir con nosotros este momento, te queremos.',
+      'Mae Chava, le doy muchisimas gracias a Dios por tu vida y por tu gran amistad, sos un gran mae y todo un ejemplo a seguir. ',
     numberGuests: 2,
     name: 'Natalia Mancha',
   },
   {
-    id: 'ISGUBJ',
+    id: 'KTYQZS',
     message:
-      'Brenda, gracias por quererme tanto, que alegría poder compartir contigo este momento.',
+      'Silvi queria aprovechar para darte las gracias por tantos años de amistad (atte Pablo), realmente sos super especial para nosotros como pareja, la manera en que acogiste a Paloma desde la primera vez que fue a Costa Rica y todo lo que nos hemos acercado este tiempo, por eso es sumamente especial que puedas acompañarnos en este inicio de nuestro matrimonio',
     numberGuests: 1,
-    name: 'Brenda  Martinez',
-  },
-  {
-    id: 'ASUYJS',
-    message:
-      'Mi Bro (JDG) quería agradecerte por tu hermandad todos estos años la verdad para mí ha sido todo un honor poder compartir en grupo con vos y ahora que tengamos esta aventura de relaciones a distancia regioticas. Estamos muy felices Paloma y yo de poder contar con Tigo en el inicio de esta Gran Aventura.',
-    numberGuests: 1,
-    name: 'Jose Daniel Gadea',
-  },
-  {
-    id: 'LGRVHR',
-    message:
-      'Sam, mi amiga más iconic, te quiero mucho y me llena el corazón compartir este momento de alegría contigo, que nunca se nos acaben los reencuentros anuales y el chismesito.',
-    numberGuests: 1,
-    name: 'Samantha Medina',
-  },
-  {
-    id: 'SEOBNY',
-    message:
-      'Carito, soy demasiado feliz de tenerte como prima, siempre le pones demasiada alegría a la vida y a toda la dinámica de los Quesada y estamos muy felices de que Antonio y vos vayan a poder ser parte de este momento tan especial de nuestra vida.',
-    numberGuests: 2,
-    name: 'Carolina Gomez',
-  },
-  {
-    id: 'AWXAEZ',
-    message:
-      'Tío Jorge, estoy muy agradecido por todo tu cariño y por todo lo que hemos compartido juntos y tanto Paloma y yo esperamos poder compartir con vos este día tan especial para nosotros',
-    numberGuests: 1,
-    name: 'Tío Jorge Madrigal',
-  },
-  {
-    id: 'MCXLZX',
-    message:
-      'Mae Jorge estoy muy agradecido de poder tenerte como primo y aun que llevamos varios años sin vernos ni poder compartir mucho, quiero que sepas que te quiero muchisimo y espero que puedas compartir con nosotros de este día tan importante para nuestra vida',
-    numberGuests: 1,
-    name: 'Jorge Eduardo Madrigal',
-  },
-  {
-    id: 'FVLWRW',
-    message:
-      'Miriam, gracias por formar parte de este momento tan especial en mi vida.',
-    numberGuests: 2,
-    name: 'Miriam Medina',
-  },
-  {
-    id: 'WILFUM',
-    message:
-      'Natalia, prima querida, estoy muy agradecido con Dios por que nos puso en la misma familia, sos sumamente especial para mi y sobretodo estos últimos años en que hemos podido compartir más y más. Por eso estoy super feliz de que nos vayas a poder acompañar en este día tan tan importante para nosotros',
-    numberGuests: 1,
-    name: 'Natalia Madrigal',
-  },
-  {
-    id: 'VYNWGY',
-    message:
-      'Tía querida, estoy demasiado agradecido con Dios de poder tenerte como tía, a pesar de la distancia y estar en países diferentes sos increíble y haz roto las barreras y la distancia para mantenerte parte de nuestras vidas y ahora que he podido viajar allá y verte varias veces, por eso estoy muy feliz que puedas acompañarnos en este día tan importante ',
-    numberGuests: 1,
-    name: 'Rocío Madrigal',
-  },
-  {
-    id: 'GKVSTN',
-    message:
-      'Gaby estoy muy agradecido por tu vida y queremos poder compartir con vos de este día tan especial para nuestra vida',
-    numberGuests: 1,
-    name: 'Gabriela Madrigal',
-  },
-  {
-    id: 'DGXNCI',
-    message:
-      'Verito querida, primero quería decirte que te quiero muchísimo y que estoy demasiado feliz con el Señor por haberte puesto en mi vida. Cada aventura que hemos tenido desde muy niños hasta ya viajes de adultos y me alegra muchísimo que vayas a ser parte de esta nueva aventura que estamos por empezar Paloma y yo ',
-    numberGuests: 1,
-    name: 'Veronica Gomez',
-  },
-  {
-    id: 'ZGFAVQ',
-    message:
-      'Anita mi hermanita quería aprovechar esta oportunidad para agradecerte por tu amistad todo este tiempo y más recientemente hemos podido compartir Cris y vos con Paloma y conmigo. Para nosotros es un gusto increíble poder contar con ustedes en este día tan especial y nos va a ser muy feliz que podamos seguir poniendo recuerdos conjuntos con este momento tan importante para nosotros',
-    numberGuests: 2,
-    name: 'Anita (y cris)',
+    name: 'Silvia Marin',
   },
   {
     id: 'SCNPQO',
@@ -851,26 +923,41 @@ export const guestInformation = [
     name: 'Mitad',
   },
   {
-    id: 'AOYBJR',
+    id: 'ISGUBJ',
     message:
-      'Nats primero que todo quería darte gracias por tu amistad en esta más de una década de tiempo que tenemos de ser hermanitos y decirte que para nosotros es sumamente especial el poder contar contigo en este día tan importante para nosotros.',
+      'Brenda, gracias por quererme tanto, que alegría poder compartir contigo este momento.',
     numberGuests: 1,
-    name: 'Nathalie Horvilleur',
+    name: 'Brenda  Martinez',
   },
   {
-    id: 'PMUPKB',
+    id: 'XRXLFN',
     message:
-      'Mae Jeffrey quería aprovechar este momento para agradecerte por tu amistad y compañerismo realmente soy muy afortunado de haber estado con vos en el científico pero también en todas las otras aventuras que tuvimos olimpiadas de robótica aprender a dar clases de programación aprender a lidiar con niños y aunque no hemos estado tan cercanos últimamente desde que yo me fui a México para mí es sumamente especial el poder contar con vos en este día tan importante de mi vida',
+      'Mae Chava, le doy muchisimas gracias a Dios por tu vida, sos un increible mae y un ejemplo de hombre cristiano, gracias por tu amistad sincera. Para nosotros es de mucha alegría poder contar con vos en nuestra boda y que nos acompañes en este día tan especial ',
     numberGuests: 1,
-    name: 'Jeffry Luque',
+    name: 'Chava Martinez',
   },
   {
-    id: 'KTYQZS',
+    id: 'LGRVHR',
     message:
-      'Silvi queria aprovechar para darte las gracias por tantos años de amistad (atte Pablo), realmente sos super especial para nosotros como pareja, la manera en que acogiste a Paloma desde la primera vez que fue a Costa Rica y todo lo que nos hemos acercado este tiempo, por eso es sumamente especial que puedas acompañarnos en este inicio de nuestro matrimonio',
+      'Sam, mi amiga más iconic, te quiero mucho y me llena el corazón compartir este momento de alegría contigo, que nunca se nos acaben los reencuentros anuales y el chismesito.',
+    numberGuests: 1,
+    name: 'Samantha Medina',
+  },
+  {
+    id: 'FVLWRW',
+    message:
+      'Miriam, gracias por formar parte de este momento tan especial en mi vida.',
     numberGuests: 2,
-    name: 'Silvia Marin',
+    name: 'Miriam Medina',
   },
+  {
+    id: 'QPSGWN',
+    message:
+      'Querida Fabs significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Fabs',
+  },
+
   {
     id: 'NTWWIQ',
     message:
@@ -879,131 +966,19 @@ export const guestInformation = [
     name: 'Sra Lidia Montelongo',
   },
   {
-    id: 'LEZOAY',
-    message:
-      'Tixi, me es complicado poder describir la increíble amistad que tenemos, eres una grandiosa amiga que siempre busca como ayudar y apoyar. Enserio nos alegra mucho que vayas a ser parte de nuestra vida y de esta nueva etapa que estamos empezando.',
-    numberGuests: 1,
-    name: 'Tixiana',
-  },
-  {
-    id: 'FXEEZN',
-    message:
-      'Mi querido RP, la verdad es que no se que hubiera hecho durante este último año y medio sin vos, el apoyo a la distancia (y presencialmente) los consejos de relaciones, el tranquilizarme cuando me estaba desesperando un poco, cada uno de los grupos pastorales y sobretodo el apoyo ahora con la boda civil y los tramites legales, nada de esto hubiera sido posible sin vos, por eso sería muy importante para nosotros poder compartir con ustedes de este día tan especial',
-    numberGuests: 2,
-    name: 'Juan Carlos Montero',
-  },
-  {
-    id: 'BUMMMO',
-    message:
-      'Mae Eddy quería aprovechar para darte gracias y honrarte por este tiempo que he podido conocerte en GP, sos un hombre increíble y un cristiano radical, gracias por tu amistad sincera. Para nosotros es de mucha alegría poder contar con vos en nuestra boda y que nos acompañes en este día tan especial ',
-    numberGuests: 2,
-    name: 'Eddy Nuñez',
-  },
-  {
-    id: 'CKRSPR',
-    message:
-      'Rey Dav, mi querido hermano, realmente sos un gran mae, y estoy muy agradecido con Dios por haber podido compartir mi formación con los siervos contigo, te quiero muchisimo y aunque no hemos compartido tanto ultimamente (por estar en paises diferentes) espero que ahora estando en el mismo sea mas facil vernos, realmente sos un ejemplo en muchas cosas y por eso estamos muy felices de compartir contigo el inicio de esta gran aventura del matrimonio',
-    numberGuests: 1,
-    name: 'Rey David Morales',
-  },
-  {
-    id: 'HDVOHJ',
-    message:
-      'Mariale, queria darte las gracias por tantos años de amistad, por que desde hace más de una decada que estamos juntos en la aventura de la vida y de caminar con el Señor y la verdad es que me cuesta mucho imaginar como van a ser los proximos años en que voy a estar en Monterrey sin tenerlos a una escapada de distancia :S pero también me emociona mucho poder pensar en los increibles planes que tiene el Señor y que vamos a estar entrando a este nuevo estado de vida casi que al mismo tiempo jajajaja Gracias por siempre estar ahi para apoyarme en las buenas y en las malas, por cuidarme como una mamá cuando haciamos paseos y era un poco mas tonto y loco. Por tener las conversaciones serias que ocupaba que alguien tuviera conmigo pero también apuntarte a loqueras como ser responsables de los menores de edad en Panamá o irnos ida y vuelta a Bahia Ballena solo por que si. En fin enserio gracias por tu amistad y por estar presente en este día tan importante para mi. Te quiero mucho',
-    numberGuests: 2,
-    name: 'Mariale  Muñoz',
-  },
-  {
-    id: 'VYIYNV',
-    message:
-      'Sofi, muchas gracias por tantos años de amistad y de crecer juntos, desde adolescentes medio locos hasta ya casados (aunque tú te adelantaste muchísimo) queria que supieras que es muy especial que podas acompañarnos en este día tan importante y seguir sumando grandiosos recuerdos a los muchos que hemos acumulado ',
-    numberGuests: 2,
-    name: 'Sofia  Perez',
-  },
-  {
-    id: 'HEUUAJ',
-    message:
-      'Vicky gracias por tantos años de amistad :D y por qué haz buscado también ser amiga de Paloma y estamos super felices de que vayas a poder parte del inicio de esta gran aventura ',
-    numberGuests: 1,
-    name: 'Victoria  Portuguez',
-  },
-  {
-    id: 'TVNXHQ',
-    message:
-      'Mae Quintero le doy demasiadas gracias a Dios por tu vida y por tantos años de amistad, hermandad, servicio juntos, etc. Realmente haz sido una bendición en mi vida, un hombre en quien se que puedo confiar plenamente y estoy muy feliz de por compartir contigo del inicio de esta nueva aventura ',
-    numberGuests: 1,
-    name: 'Jose David Quintero',
-  },
-  {
-    id: 'GDYNHD',
-    message:
-      'Mae Paolo, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
-    numberGuests: 1,
-    name: 'Paolo Rimolo',
-  },
-  {
-    id: 'SOVCIJ',
-    message:
-      'Mari amiga querida, quería darte gracias por todos estos años de amistad :) y nos alegraría que puedas ser parte de este inicio de mi nueva familia :D',
-    numberGuests: 1,
-    name: 'Mariana Rivas',
-  },
-  {
     id: 'QBNRHF',
     message:
       'Jacquie, gracias por acompañarme en diferentes momentos de mi vida, valoro mucho nuestra amistad y te quiero demasiado, no me imagino este día especial sin ti. ',
     numberGuests: 2,
     name: 'Jacqueline Montemayor',
   },
+
   {
-    id: 'GIWOAX',
+    id: 'HDVOHJ',
     message:
-      'Irenita hace poco estaba revisando y limpiando mi WhatsApp y me di cuenta que el mensaje más viejo que tengo es una receta de brownie de chocolate en microondas que me mandaste a inicios del 2015 por que ocupaba con urgencia llevar algo a una actividad 😂 y eso es un buen ejemplo de como eres, siempre buscando como ayudar, como servir, que detalle especial y personal regalar. Quiero darte gracias por todos estos años de amistad, Paloma y yo estamos muy alegres de que vayas a formar parte de nuestra vida y que nos puedas acompañar en este inicio de una nueva etapa',
-    numberGuests: 2,
-    name: 'Irenita',
-  },
-  {
-    id: 'PUWQRE',
-    message:
-      'Magui, me hace muy feliz que formes parte de mi vida, desde que estuvimos en Brecha juntos he admirado mucho tu dedicación y entrega al Señor en todo lo que haces y a pesar de que una vez que se termino el tiempo de Brecha casi no hemos compartido tanto (sobretodo por estar en paises o estados diferentes) sigues siendo una persona sumamente especial y por eso nos gustaría que pudieras acompañarnos en este día tan importante para nosotros',
-    numberGuests: 2,
-    name: 'Magui Perez',
-  },
-  { id: 'N/A', message: 'N/A', numberGuests: 1, name: 'Paloma Ruiz' },
-  {
-    id: 'KSYEGS',
-    message:
-      'Mae Alex, le doy muchas gracias a Dios por tu vida y por el gran compartir que tuvimos el tiempo que estuvimos juntos en GP y estoy muy feliz por qué puedas acompañarnos en el inicio de esta gran aventura que es el matrimonio.',
-    numberGuests: 2,
-    name: 'Alex Sequeira',
-  },
-  {
-    id: 'BQGUVS',
-    message:
-      'Mae Jhonny quería darte mil gracias por todos estos años de amistad, desde que llegaste a CR en el 2018 super que en ti había encontrado un buen amigo, pero sobretodo cuando volví de los siervos descubrí que era más real de lo que había esperado. Compartir con vos en GP es increíble, he aprendido mucho de ti y me alegra que vayas a ser parte del este paso a una nueva etapa',
+      'Mariale, queria darte las gracias por tantos años de amistad, por que desde hace más de una decada que estamos juntos en la aventura de la vida y de caminar con el Señor y la verdad es que me cuesta mucho imaginar como van a ser los proximos años en que voy a estar en Monterrey sin tenerlos a una escapada de distancia :S pero también me emociona mucho poder pensar en los increibles planes que tiene el Señor y que vamos a estar entrando a este nuevo estado de vida casi que al mismo tiempo jajajaja Gracias por siempre estar ahi para apoyarme en las buenas y en las malas, por cuidarme como una mamá cuando haciamos paseos y era un poco mas tonto y loco. Por tener las conversaciones serias que ocupaba que alguien tuviera conmigo pero también apuntarte a loqueras como ser responsables de los menores de edad en Panamá o irnos ida y vuelta a Bahia Ballena solo por que si. En fin enserio gracias por tu amistad y por estar presente en este día tan importante para mi. Te quiero mucho',
     numberGuests: 1,
-    name: 'Jhonny  Sobalvarro',
-  },
-  {
-    id: 'BUAKSB',
-    message:
-      'Tía querida de mi corazón, estoy muy muy agradecido con Dios por tenerte como mi tía, enserio muchísimas gracias por todo lo que haz hecho por nosotros desde que empezamos a salir, desde hospedar a Paloma y sus amigas, el ser tan presente en nuestra relación, por eso estamos super alegres de poder compartir con vos de este día tan especial ',
-    numberGuests: 1,
-    name: 'Evelyn  Quesada',
-  },
-  {
-    id: 'YABSLF',
-    message:
-      'Tío Jose y Tía Jey estoy super agradecido con Dios por poder ser parte de la misma familia, siempre han sido para mi un verdadero ejemplo de matrimonio cristiano y de que como seguidores de Cristo también se puede aspirar por una excelencia en la parte profesional. Y ahora con el curso prematrimonial aún mas hemos podido ver la calidad de personas y de pareja que son. Enserio nos alegra mucho poder contar con ustedes en esta nueva etapa de la vida',
-    numberGuests: 4,
-    name: 'Jose Julio  Quesada',
-  },
-  {
-    id: 'HMNPXR',
-    message:
-      'Mae Chue luego de una vida de crecer juntos y vivir cada uno de las etapas de la vida, desde CCC, Shalom, CEM, etc. Y ahora el poder compartir mi brinco a esta nueva etapa contigo es súper alegre para mí :D ',
-    numberGuests: 1,
-    name: 'Chue',
+    name: 'Mariale  Muñoz',
   },
   {
     id: 'EPDCHH',
@@ -1011,6 +986,13 @@ export const guestInformation = [
       'Familia Nolasco, le damos queriamos dar muchisimas gracias por todo el apoyo que nos han brindado, conocerlos es una bendición y son un ejemplo de familia para nosotros, los queremos mucho y nos hace muy felices compartir este día con ustedes. ',
     numberGuests: 4,
     name: 'Carlos Nolasco',
+  },
+  {
+    id: 'BUMMMO',
+    message:
+      'Mae Eddy quería aprovechar para darte gracias y honrarte por este tiempo que he podido conocerte en GP, sos un hombre increíble y un cristiano radical, gracias por tu amistad sincera. Para nosotros es de mucha alegría poder contar con vos en nuestra boda y que nos acompañes en este día tan especial ',
+    numberGuests: 1,
+    name: 'Eddy Nuñez',
   },
   {
     id: 'ADQYEF',
@@ -1027,6 +1009,13 @@ export const guestInformation = [
     name: 'Mariana  Olivares',
   },
   {
+    id: 'NMEUOW',
+    message:
+      'Querida Almita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Almita',
+  },
+  {
     id: 'WGIZJI',
     message:
       'Lolis, gracias por tu amistad, gracias por cada consejo honesto que me haz brindado y gracias por hacer mi ramo de ensueño realidad, me hace muy feliz que formes parte de este día. ',
@@ -1041,13 +1030,6 @@ export const guestInformation = [
     name: 'Fany Pequeño',
   },
   {
-    id: 'MQQRHT',
-    message:
-      'Rafita querido, estoy super agradecido con Dios por tu vida y me cuesta ponerlo todo en un espacio tan pequeño, pero al menos quiero que sepas que te quiero muchisimo, tenemos mas de 28 de caminar (o gatear) juntos y me va a costar mucho estos primeros años en que no vamos a poder compartir tanto, ya que incluso cuando estuve con los siervos estabas vos en MTY jajajaja pero enserio soy super super afortunado de poder tenerte en mi vida y de que vayamos a poder compartir juntos este día tan especial para mi.',
-    numberGuests: 2,
-    name: 'Rafael Regidor',
-  },
-  {
     id: 'NQJRIY',
     message:
       'Familia Pequeño, los quiero mucho, gracias por siempre demostrarme su cariño, me hace muy feliz que formen parte de este momento. ',
@@ -1055,11 +1037,25 @@ export const guestInformation = [
     name: 'Daniel Pequeño',
   },
   {
+    id: 'HEUUAJ',
+    message:
+      'Vicky gracias por tantos años de amistad :D y por qué haz buscado también ser amiga de Paloma y estamos super felices de que vayas a poder parte del inicio de esta gran aventura ',
+    numberGuests: 1,
+    name: 'Victoria  Portuguez',
+  },
+  {
     id: 'XBZDHH',
     message:
       'Querido Ivan significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
     numberGuests: 1,
     name: 'Ivan',
+  },
+  {
+    id: 'TVNXHQ',
+    message:
+      'Mae Quintero le doy demasiadas gracias a Dios por tu vida y por tantos años de amistad, hermandad, servicio juntos, etc. Realmente haz sido una bendición en mi vida, un hombre en quien se que puedo confiar plenamente y estoy muy feliz de por compartir contigo del inicio de esta nueva aventura ',
+    numberGuests: 1,
+    name: 'Jose David Quintero',
   },
   {
     id: 'POUFPP',
@@ -1076,13 +1072,6 @@ export const guestInformation = [
     name: 'Tia Juany Ramos',
   },
   {
-    id: 'MWLSFL',
-    message:
-      'Katy, Hassan, Mila y Manara, los quiero mucho, gracias por siempre estar para mi cuando lo he necesitado, me hace muy feliz compartir este momento con ustedes. ',
-    numberGuests: 4,
-    name: 'Katia  Rangel',
-  },
-  {
     id: 'FNJOSG',
     message:
       'Erika, gracias por ser el hada madrina que resuelve cualquier situación, me hace feliz poder compartir este momento contigo. ',
@@ -1095,6 +1084,13 @@ export const guestInformation = [
       'Roberto y Yareli, que alegría poder compartir este momento tan importante con ustedes, gracias por alegrarse con nosotros. ',
     numberGuests: 2,
     name: 'Roberto Rangel',
+  },
+  {
+    id: 'ABHJUH',
+    message:
+      'Ia !!! Le doy muchisimas gracias a Dios por tu vida y tu amistad todos estos años, por que no haz sido nada mas "la hermana de mi mejor amigo" sino que sos una amiga para mi y ahora tambien haz podido serlo para Paloma. Por eso es muy importante para nosotros poder contar contigo este día tan especial',
+    numberGuests: 1,
+    name: 'Estefanía Regidor',
   },
   {
     id: 'BLPNNU',
@@ -1111,11 +1107,26 @@ export const guestInformation = [
     name: 'Nadia Reyes',
   },
   {
+    id: 'GDYNHD',
+    message:
+      'Mae Paolo, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
+    numberGuests: 1,
+    name: 'Paolo Rimolo',
+  },
+
+  {
     id: 'AEPTVJ',
     message:
       'Angie, nuestra colombiana mexicana, te queremos mucho y nos hace muy felices que estes viviendo esto con nosotros, gracias por tu calida amistad y cariño.',
     numberGuests: 1,
     name: 'Angie  Rincon',
+  },
+  {
+    id: 'SOVCIJ',
+    message:
+      'Mari amiga querida, quería darte gracias por todos estos años de amistad :) y nos alegraría que puedas ser parte de este inicio de mi nueva familia :D',
+    numberGuests: 1,
+    name: 'Mariana Rivas',
   },
   {
     id: 'AFECWK',
@@ -1125,11 +1136,11 @@ export const guestInformation = [
     name: 'Andrea Rivera',
   },
   {
-    id: 'BQZDOD',
+    id: 'GIWOAX',
     message:
-      'Tia Cecy, le agradezco todo su amor y atenciones que siempre tiene conmigo, la quiero mucho y me hace muy feliz que sea parte de este momento de mi vida. ',
+      'Irenita hace poco estaba revisando y limpiando mi WhatsApp y me di cuenta que el mensaje más viejo que tengo es una receta de brownie de chocolate en microondas que me mandaste a inicios del 2015 por que ocupaba con urgencia llevar algo a una actividad 😂 y eso es un buen ejemplo de como eres, siempre buscando como ayudar, como servir, que detalle especial y personal regalar. Quiero darte gracias por todos estos años de amistad, Paloma y yo estamos muy alegres de que vayas a formar parte de nuestra vida y que nos puedas acompañar en este inicio de una nueva etapa',
     numberGuests: 1,
-    name: 'Cecilia  Ruiz',
+    name: 'Irenita',
   },
   {
     id: 'CODGXL',
@@ -1146,11 +1157,42 @@ export const guestInformation = [
     name: 'Myrthala  Ruiz',
   },
   {
-    id: 'TSGUHB',
+    id: 'TYRIPI',
     message:
-      'Miryanisima, queria darte gracias por todos estos años de amistad, en realidad casi no he mantenido el contacto con casi nadie del CCC desde que me fui a Mexico por primera vez, pero contigo ha sido diferente y a pesar de que no hablamos a diario puedo decir que sos de los pocos amigos que me quedan de esa etapa y estoy muy feliz de poder contar contigo y con Lennon de este momento tan especial de mi vida, y ojalá que sea solo el primero de muchos viajes a Mexico',
-    numberGuests: 2,
-    name: 'Miryana Sancez',
+      'Querida Ludivina significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Ludivina',
+  },
+
+  {
+    id: 'EYGPCY',
+    message:
+      'Said, nos hace muy felices que puedas vivir esto con nosotros, gracias por tu amistad generosa y por alegrarte desde el primer dia por nosotros, gracias por adoptar a Pablo en su primera venida y por todo lo que haz hecho por nosotros te queremos.',
+    numberGuests: 1,
+    name: 'Emilio Said',
+  },
+
+  {
+    id: 'NMXKFE',
+    message:
+      'Hola Sam, estamos muy agradecidos con Dios por tu vida y por lo que ha hecho en nuestras vidas por medio tuyo, ambos te queremos mucho y por eso estamos muy felices de poder compartir contigo este día tan importante para nosotros ',
+    numberGuests: 1,
+    name: 'Samantha  Samaniego ',
+  },
+
+  {
+    id: 'MCOSYM',
+    message:
+      'Lucy, quién diría que nos enamorariamos de ticos haha, significa mucho para mi poder compartir este momento contigo, gracias por siempre alegrarte con nosotros, te quiero mucho. ',
+    numberGuests: 1,
+    name: 'Lucy Sancristobal',
+  },
+  {
+    id: 'WFMKPJ',
+    message:
+      'Diego, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
+    numberGuests: 1,
+    name: 'Diego  Sandoval',
   },
   {
     id: 'OUTIXF',
@@ -1160,26 +1202,13 @@ export const guestInformation = [
     name: 'Ángel Santiago',
   },
   {
-    id: 'EYGPCY',
+    id: 'KSYEGS',
     message:
-      'Said, nos hace muy felices que puedas vivir esto con nosotros, gracias por tu amistad generosa y por alegrarte desde el primer dia por nosotros, gracias por adoptar a Pablo en su primera venida y por todo lo que haz hecho por nosotros te queremos.',
-    numberGuests: 1,
-    name: 'Emilio Said',
+      'Mae Alex, le doy muchas gracias a Dios por tu vida y por el gran compartir que tuvimos el tiempo que estuvimos juntos en GP y estoy muy feliz por qué puedas acompañarnos en el inicio de esta gran aventura que es el matrimonio.',
+    numberGuests: 2,
+    name: 'Alex Sequeira',
   },
-  {
-    id: 'NMXKFE',
-    message:
-      'Hola Sam, estamos muy agradecidos con Dios por tu vida y por lo que ha hecho en nuestras vidas por medio tuyo, ambos te queremos mucho y por eso estamos muy felices de poder compartir contigo este día tan importante para nosotros ',
-    numberGuests: 1,
-    name: 'Samantha  Samaniego ',
-  },
-  {
-    id: 'MCOSYM',
-    message:
-      'Lucy, quién diría que nos enamorariamos de ticos haha, significa mucho para mi poder compartir este momento contigo, gracias por siempre alegrarte con nosotros, te quiero mucho. ',
-    numberGuests: 1,
-    name: 'Lucy Sancristobal',
-  },
+
   {
     id: 'VFTTNK',
     message:
@@ -1188,12 +1217,27 @@ export const guestInformation = [
     name: 'Karen Siller',
   },
   {
+    id: 'BQGUVS',
+    message:
+      'Mae Jhonny quería darte mil gracias por todos estos años de amistad, desde que llegaste a CR en el 2018 super que en ti había encontrado un buen amigo, pero sobretodo cuando volví de los siervos descubrí que era más real de lo que había esperado. Compartir con vos en GP es increíble, he aprendido mucho de ti y me alegra que vayas a ser parte del este paso a una nueva etapa',
+    numberGuests: 1,
+    name: 'Jhonny  Sobalvarro',
+  },
+  {
+    id: 'HMNPXR',
+    message:
+      'Mae Chue luego de una vida de crecer juntos y vivir cada uno de las etapas de la vida, desde CCC, Shalom, CEM, etc. Y ahora el poder compartir mi brinco a esta nueva etapa contigo es súper alegre para mí :D ',
+    numberGuests: 1,
+    name: 'Chue',
+  },
+  {
     id: 'MODKJD',
     message:
       'Beto, gracias por tu amistad tan honesta y siempre dispuesta a servir, bro te queremos un chingo y nos hace muy felices compartir este momento contigo, gracias por tu amistad y por todas las aventuras que hemos tenido y esperando tener muchisimas aventuras (y acampadas atte Pablo) por muchisimos años más',
     numberGuests: 1,
     name: 'Humberto Soto',
   },
+
   {
     id: 'MGEYIS',
     message:
@@ -1202,18 +1246,18 @@ export const guestInformation = [
     name: 'Pepe  Tellez',
   },
   {
-    id: 'MBGVOP',
-    message:
-      'Hillary, nuestra hermandad es para siempre, no puedo agradecerte suficiente todo lo que haces por mi con tal de que yo sea feliz, tu amistad es un regalo y un tesoro para mi, te amo y recuerda que podemos seguir llendo a misa juntas aunque este casada haha. ',
-    numberGuests: 1,
-    name: 'Hillary Terrazas',
-  },
-  {
     id: 'GGVVAC',
     message:
       'Luis Diego y Melanie, nada nos hace más felices que estén de regreso en mty y puedan formar parte de este momento tan especial, gracias por cada consejo que nos han brindado y por toda la amistad, los queremos muchisimo. ',
     numberGuests: 2,
     name: 'Melanie Terrazas',
+  },
+  {
+    id: 'MBGVOP',
+    message:
+      'Hillary, nuestra hermandad es para siempre, no puedo agradecerte suficiente todo lo que haces por mi con tal de que yo sea feliz, tu amistad es un regalo y un tesoro para mi, te amo y recuerda que podemos seguir llendo a misa juntas aunque este casada haha. ',
+    numberGuests: 1,
+    name: 'Hillary Terrazas',
   },
   {
     id: 'CBJWKX',
@@ -1230,12 +1274,20 @@ export const guestInformation = [
     name: 'Alice Treviño',
   },
   {
+    id: 'NUJOAZ',
+    message:
+      'Querida Nelly significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Nelly',
+  },
+  {
     id: 'YWHMZW',
     message:
       'Mae Jaan es dificil poner en un espacio tan pequeño lo mucho que te quiero, enserio sos mas que un amigo para mi, por mas de 10 años hemos podido compartir, reir, lamentarnos, hacer tonteras (legales e ilegales) y viajar cientos de kilometros para poder vernos. Por eso me alegra muchisimo que puedas estar conmigo en el inicio de esta gran aventura ',
     numberGuests: 2,
-    name: 'Jaan Valerio',
+    name: 'Jaan  Valerio',
   },
+
   {
     id: 'RBJQXW',
     message:
@@ -1250,6 +1302,7 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Jessica Vargas',
   },
+
   {
     id: 'UFTFYN',
     message:
@@ -1263,6 +1316,27 @@ export const guestInformation = [
       'Vale, gracias por tantos años de amistad que hemos compartido, que nunca se acabe el chismesito y los reencuentros anuales haha, te quiero mucho y me hace muy feliz que formes parte de este momento.',
     numberGuests: 1,
     name: 'Valeria Vega',
+  },
+  {
+    id: 'EDYKQE',
+    message:
+      'Querida Luisa significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Luisa',
+  },
+  {
+    id: 'NNZECO',
+    message:
+      'Querida Marisol significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Marisol',
+  },
+  {
+    id: 'CJLUZG',
+    message:
+      'Querida Tia Carmela significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Tia Carmela',
   },
   {
     id: 'SBUUYD',
@@ -1285,13 +1359,7 @@ export const guestInformation = [
     numberGuests: 2,
     name: 'Salma Villeda',
   },
-  {
-    id: 'TAULDL',
-    message:
-      'Natalia Zapiain, gracias por todos estos años de amistad, me hace muy feliz que estemos creciendo juntas y compartir estos momentos tan felices contigo.',
-    numberGuests: 1,
-    name: 'Natalia Zapiain',
-  },
+
   {
     id: 'DHJKMA',
     message:
@@ -1299,172 +1367,12 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Yaresi  Zavala',
   },
+
   {
     id: 'NLKELA',
     message:
-      'Padre Borre, muchas gracias por brindarnos su guía y sobretodo su amistad, gracias por cada consejo y salidas a comer que ha terminado en sesion pastoral haha lo queremos mucho, gracias por ser parte de nuestra unión. ',
+      'Padre Borre, muchas gracias por brindarnos su guía y sobretodo su amistad, gracias por cada consejo y compartir que ha terminado en sesion pastoral haha lo queremos mucho, gracias por ser parte de nuestra unión. ',
     numberGuests: 1,
     name: 'Padre Borre ',
-  },
-  {
-    id: 'OTCWTX',
-    message:
-      'Dani y Cris, los queremos muchisimo y la verdad han sido un gran apoyo para nosotros como pareja desde que Paloma vino por primera vez a Costa Rica. Y por eso sería super especial para nosotros poder compartir de este día tan importante con ustedes',
-    numberGuests: 2,
-    name: 'Daniel Calderón',
-  },
-  {
-    id: 'YSURTN',
-    message:
-      'Rebequita !!! Muchisimas gracias por todos estos años de amistad y por ser esa amiga con la que puedo hablar cosas profundas cuando sea jajajaja estoy muy agradecido con Dios por tu vida y muy feliz de poder compartir contigo de este día tan especial',
-    numberGuests: 1,
-    name: 'Rebeca Calvo',
-  },
-  {
-    id: 'NIJKUI',
-    message:
-      'Tutti !!! Le doy demasiadas gracias a Diosito por tu vida y por permitirme ser parte de ella. Hace poco que estabamos recordando el inicio de nuestra amistad y de todas las locuras y aventruas que tuvimos, no podia mas que agradecer por tenerte y pensar en las muchas aventuras que vamos a tener cuando vuelva a CR y estemos en esta nueva etapa de nuestras vidas. Por eso es que es demasiado especial para mi poder contar contigo en este gran paso que estoy dando',
-    numberGuests: 2,
-    name: 'Susana Espinoza',
-  },
-  {
-    id: 'HQSNKJ',
-    message:
-      'Ross Estoy demasiado agradecido con Dios por tu vida y por este tiempo post pandemia que nuestra amistad ha crecido aún más, incluso empezar a emprender juntos y tener nuevas aventuras de adultos jeje por eso estoy muy muy feliz de poder contar con vos en este día tan especial para mi',
-    numberGuests: 2,
-    name: 'Rosscelly Larios',
-  },
-  {
-    id: 'NLZPRJ',
-    message:
-      'Memish!! Primero que todo quería darle gracias a Dios por tu vida y por haberte puesto en la mía, es dificil poner tantos años de amistad en estas pequeñas lineas pero realmente te agradezco por estos últimos años en que hemos compartido esta aventura de una relación (y ahora boda) regio-tica. Por eso es sumamente especial para nosotros poder contar con vos y con Richi en este día tan importante',
-    numberGuests: 2,
-    name: 'Memy',
-  },
-  {
-    id: 'ABHJUH',
-    message:
-      'Ia !!! Le doy muchisimas gracias a Dios por tu vida y tu amistad todos estos años, por que no haz sido nada mas "la hermana de mi mejor amigo" sino que sos una amiga para mi y ahora tambien haz podido serlo para Paloma. Por eso es muy importante para nosotros poder contar contigo este día tan especial',
-    numberGuests: 1,
-    name: 'Estefanía Regidor',
-  },
-  {
-    id: 'UCRCUG',
-    message:
-      'Querida Tatiana significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Tatiana',
-  },
-  {
-    id: 'ZIYSYD',
-    message:
-      'Majo !!!! Paloma y yo estamos super agradecidos con vos por todo lo que haz hecho por nosotros :) no se que habríamos hecho sin tu ayuda para la civil, pero también quería darte gracias por todos estos años de amistad, por eso nos alegra mucho que puedas ser parte de este inicio de una nueva aventura',
-    numberGuests: 1,
-    name: 'Maria  Bravo',
-  },
-  {
-    id: 'TYRIPI',
-    message:
-      'Querida Tia Ludy significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Tia Ludy',
-  },
-  {
-    id: 'LDBNYQ',
-    message:
-      'Querida Esme significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 1,
-    name: 'Esme',
-  },
-  {
-    id: 'TEZQVV',
-    message:
-      'Queridos Sra Claudia Y Sr. Mario significa mucho para nosotros que esten presentes en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Sra Claudia Y Sr. Mario',
-  },
-  {
-    id: 'GEJVAH',
-    message:
-      'Querida Sra Lupita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 1,
-    name: 'Sra Lupita',
-  },
-  {
-    id: 'TIIMWP',
-    message:
-      'Querida Claudia significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Claudia',
-  },
-  {
-    id: 'EDYKQE',
-    message:
-      'Querida Luisa significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Luisa',
-  },
-  {
-    id: 'NNZECO',
-    message:
-      'Querida Marisol significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 1,
-    name: 'Marisol',
-  },
-  {
-    id: 'NMEUOW',
-    message:
-      'Querida Almita significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 1,
-    name: 'Almita',
-  },
-  {
-    id: 'NUJOAZ',
-    message:
-      'Querida Nelly significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Nelly',
-  },
-  {
-    id: 'ZNCBOB',
-    message:
-      'Querida Mel significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 1,
-    name: 'Mel',
-  },
-  {
-    id: 'CJLUZG',
-    message:
-      'Querida Tia Carmela significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Tia Carmela',
-  },
-  {
-    id: 'QPSGWN',
-    message:
-      'Querida Fabs significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
-    numberGuests: 2,
-    name: 'Fabs',
-  },
-  {
-    id: 'QJWZAO',
-    message:
-      'Mae Richi, estoy muy agradecido con el Señor por tu vida, desde que te conocí en la Brecha y nos toco vivir juntos en casa de hermanos hasta estar aventurandonos juntos en esta aventura de una relacion regio/tica. Sos un increible hombre, un gran cristiano y un increible amigo que tiene un corazón que arde por el Señor. Por eso es muy importante para mi poder compartir contigo de este día tan especial en mi vida',
-    numberGuests: 1,
-    name: 'Ricardo Arsiniega',
-  },
-  {
-    id: 'WFMKPJ',
-    message:
-      'Diego, gracias por siempre alegrarte con nosotros y por tu amistad genuina, nos hace muy felices poder compartir contigo este momento.',
-    numberGuests: 1,
-    name: 'Diego  Sandoval',
-  },
-  {
-    id: 'EQBGSY',
-    message:
-      'Queridos Tío Lucio y Tía María del Rosario, primero que todo queríamos darles gracias por todo su cariño, consejos y por ser un matrimonio presente para nosotros, por eso nos alegra mucho compartir este día tan especial con ustedes. Los queremos mucho',
-    numberGuests: 3,
-    name: 'Tios Collins',
   },
 ]
