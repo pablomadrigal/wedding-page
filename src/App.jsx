@@ -5,6 +5,7 @@ import ErrorPage from './pages/ErrorPage'
 import Proposal from './pages/Proposal'
 import Timeline from './pages/Timeline'
 import Guest from './pages/Guest'
+import Mass from './pages/Mass'
 
 const router = createHashRouter([
   {
@@ -19,6 +20,10 @@ const router = createHashRouter([
   {
     path: 'timeline',
     element: <Timeline />,
+  },
+  {
+    path: 'mass',
+    element: <Mass />,
   },
   {
     path: 'guest',

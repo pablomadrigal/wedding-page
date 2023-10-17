@@ -17,11 +17,13 @@ import { useState } from 'react'
 const firstLinks = [
   { id: 'couple', label: 'Inicio', url: '/' },
   { id: 'proposal', label: 'La propuesta', url: '/proposal' },
+  { id: 'timeline', label: 'Nuestra historia', url: '/timeline' },
 ]
 
 const secondLinks = [
-  { id: 'timeline', label: 'Nuestra historia', url: '/timeline' },
   { id: 'guest', label: 'Invitados', url: '/guest' },
+  { id: 'misal', label: 'Misal', url: '/mass' },
+  //{ id: 'trasmisión', label: 'Trasmisión', url: '/direct' },
 ]
 
 const linkStyles = {

@@ -1375,4 +1375,46 @@ export const guestInformation = [
     numberGuests: 1,
     name: 'Padre Borre ',
   },
+  {
+    id: 'DKRKKI',
+    message:
+      'Mae Galo, le doy muchisimas gracias a Dios por tu vida pero en especial por tu amistad, sos de esos amigos que a pesar de estar a miles de km a la distancia y que nos vemos cada 3 o 4 años se que puedo contar contigo en todo momento y que es como si vivieramos al lado. Te honro también por tu entrega radical al Señor, por el si que le has dado día con día y no se si sabias pero también por ser un ejemplo de vida "post siervos", las veces que hablamos luego de que me saliera de la formación me ayudaron mucho. Por eso estoy muy feliz de poder compartir este día tan importante para mi contigo',
+    numberGuests: 1,
+    name: 'Galo Salazar',
+  },
+  {
+    id: 'EGSFKK',
+    message:
+      'Oscar hermano mío estoy muy agradecido con el Señor por tu vida y tu testimonio de amor de Dios. Estoy muy agradecido de todo lo que hemos podido compartir estos años, como tu tiempo de Brecha y el vivir juntos en casa de hermanos. Y estoy muy feliz de poder compartir contigo este día tan especial para mí.',
+    numberGuests: 1,
+    name: 'Oscar  Saballos',
+  },
+  {
+    id: 'HHZNWX',
+    message:
+      'Pepe le doy muchas gracias a Dios por tu vida y en especial por el tiempo que pudimos vivir juntos mientras estuve en formación allá en Monterrey. Sos un gran hombre y tu ejemplo me motivo a poder darlo todo por el todo, por eso estoy muy feliz de poder compartir contigo de este día tan especial',
+    numberGuests: 1,
+    name: 'Pepe  Vasquez',
+  },
+  {
+    id: 'WHHEUP',
+    message:
+      'Querida Sofi significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 1,
+    name: 'Sofi',
+  },
+  {
+    id: 'XXFNQK',
+    message:
+      'Querida Bea, nos complace invitarte a nuestra boda y nos alegra el corazón que puedas ser parte de este momento de nuestras vidas, en el corto tiempo que tenemos conviviendo y siendo amigos siempre te haz alegrado con nosotros durante todo nuestro proceso, es por eso que deseamos compartir este día contigo. ',
+    numberGuests: 1,
+    name: 'Beatriz  Simoes',
+  },
+  {
+    id: 'ZUZKFJ',
+    message:
+      'Queridos Selena y Esteban significa mucho para nosotros que estes presente en este momento tan alegre de nuestras vidas, no nos imaginaríamos este día de otra manera más que rodeados de las personas que apreciamos.',
+    numberGuests: 2,
+    name: 'Selena y Esteban',
+  },
 ]
