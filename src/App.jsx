@@ -6,6 +6,7 @@ import Proposal from './pages/Proposal'
 import Timeline from './pages/Timeline'
 import Guest from './pages/Guest'
 import Mass from './pages/Mass'
+import Gallery from './pages/Gallery'
 
 const router = createHashRouter([
   {
@@ -32,6 +33,10 @@ const router = createHashRouter([
   {
     path: 'guest/:userId',
     element: <Guest />,
+  },
+  {
+    path: 'gallery',
+    element: <Gallery />,
   },
 ])
 

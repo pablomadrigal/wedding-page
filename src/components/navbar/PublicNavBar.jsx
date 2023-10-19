@@ -23,7 +23,7 @@ const firstLinks = [
 const secondLinks = [
   { id: 'guest', label: 'Invitados', url: '/guest' },
   { id: 'misal', label: 'Misal', url: '/mass' },
-  //{ id: 'trasmisión', label: 'Trasmisión', url: '/direct' },
+  { id: 'galley', label: 'Galeria', url: '/gallery' },
 ]
 
 const linkStyles = {
